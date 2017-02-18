@@ -7,6 +7,22 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 /*colors
 
-yellow: #eec12b*/
+yellow: #eec12b
 
-font-family: 'Lato', sans-serif;
+font-family: 'Lato', sans-serif;*/
+
+
+h2 {
+	color: blue;
+}
+
+hr.vertical-rule {
+    width:100%;
+    top:-35px;
+    left:-35px;
+     transform:rotate(45deg);
+     -o-transform:rotate(45deg);
+     -moz-transform:rotate(45deg);
+     -webkit-transform:rotate(45deg);}
+
+
