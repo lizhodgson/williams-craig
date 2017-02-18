@@ -12,14 +12,14 @@ yellow: #eec12b
 font-family: 'Lato', sans-serif;*/
 
 
-
 hr.vertical-rule {
-    width:20%;
-    top:-35px;
-    left:-35px;
-     transform:rotate(90deg);
-     -o-transform:rotate(90deg);
-     -moz-transform:rotate(90deg);
-     -webkit-transform:rotate(90deg);}
+	border-color: #eec12b;
+	width:20%;
+	top:-35px;
+	left:-35px;
+	transform:rotate(90deg);
+	 -o-transform:rotate(90deg);
+	 -moz-transform:rotate(90deg);
+	 -webkit-transform:rotate(90deg);}
 
 
