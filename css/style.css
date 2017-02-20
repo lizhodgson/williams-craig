@@ -75,8 +75,8 @@ font-family: 'Lato', sans-serif;*/
 
 /******** NAVIGATION ********/
 
-		div.elevator-pitch {
-			width: 100%;
+		.column.elevator-pitch {
+			display: flex;
 		}
 
 		.flex-parent {
@@ -132,6 +132,12 @@ font-family: 'Lato', sans-serif;*/
 			width: 20%;
 		}
 
+
+/******** IMAGES ********/
+
+		.money-shot img {
+			width: 100%;
+		}
 
 
 
