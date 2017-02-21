@@ -16,7 +16,6 @@ font-family: 'Lato', sans-serif;*/
 		.wrapper {
 		  max-width: 1000px;
 		  margin: 0 auto;
-		  display: flex;
 		}
 
 
@@ -31,10 +30,20 @@ font-family: 'Lato', sans-serif;*/
 			text-transform: capitalize;
 		}
 
+		h1.company-name {
+			font-size: 3rem;
+			font-family: 'Lato', sans-serif;
+			color: white;
+			text-transform: uppercase;
+			font-weight: normal;
+			letter-spacing: 2px;
+		}
+
 		h2 {
-			font-size: 2.7rem;
+			font-size: 2.4rem;
 			font-family: 'Lato', sans-serif;
 			color: #333333;
+			text-transform: uppercase;
 		}
 
 		h3 {
@@ -65,79 +74,77 @@ font-family: 'Lato', sans-serif;*/
 
 		hr.vertical-rule {
 			border-color: #eec12b;
-			width:20%;
-			top:-35px;
-			left:-35px;
+			width:15%;
+			margin: 20% 50%;
 			transform:rotate(90deg);
 			 -o-transform:rotate(90deg);
 			 -moz-transform:rotate(90deg);
 			 -webkit-transform:rotate(90deg);}
 
-/******** NAVIGATION ********/
+/******** HEADER ********/
 
-		.column.elevator-pitch {
-			display: flex;
+
+		.header-wrapper {
+			margin: 0 auto 50px auto;
+			width: 900px;
+			position: relative;
+		}	
+
+		header.index-header.clearfix {
+			background-image: url(../images/commercial/sab-miller-2.jpg);
+			width: 100%;
+			z-index:2;
+			background-position: center; 
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			clear: both;
+			margin-top: 0;
+			padding: 5% 0 5% 0;
 		}
 
-		.flex-parent {
+		.fade-in-logo img {
+			width: 50%;
+		}
+
+
+		nav.landing-page {
+			margin-left: auto;
 			display: flex;
 			align-items: center;
-			justify-content: space-between;
-			color: white;
+			width: 100%;
+			margin-bottom: 5%;
+			padding: 10px 20px 0 20px;
 		}
 
-
-		.main-nav li a {
-			font-size: 2rem;
-			margin-left: 20px;
-			border-bottom: 3px solid transparent ;
-			transition: border-bottom 0.3s ease-in-out;
-			transition: color 0.2s ease-in-out;
-		}
-
-		.main-nav li a:hover{
-			border-bottom: 3px solid #eec12b;
-			color: #eec12b;
-		}
-
-		ul.main-nav {
-			margin: 0;
-			padding: 0;
-			list-style: none;
-			display: flex;
-		}
-
-		ul.main-nav.show-nav {
-			display: flex;
-		}
-
-		ul.main-nav li {
-			margin-right: 2rem;
-		}
-
-		ul.main-nav a {
-			display: inline-block;
-			height: 100%;
-		}
-
-		.menu-icon {
-			display: none;
-			position: fixed; /*unlocks z-index*/
-			z-index: 200;
-			top: 10%;
-			right:15%;
-		}
 
 		.arrow-down a img {
-			width: 20%;
+			width: 5%;
 		}
 
+		.index-hero {
+			text-align: center;
+		}
 
 /******** IMAGES ********/
 
 		.money-shot img {
 			width: 100%;
 		}
+
+/******** INDEX PAGE MAIN SECTION LAYOUT ********/		
+
+		section {
+			margin: 10% 0;
+		}
+
+		div.column {
+
+		}
+
+		.column.elevator-pitch {
+			display: flex;
+		}		
 
 
 
