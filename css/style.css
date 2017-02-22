@@ -52,6 +52,13 @@ font-family: 'Lato', sans-serif;*/
 			color: #333333;
 		}
 
+		h6 {
+			font-size: 2rem;
+			font-family: 'Lato', sans-serif;
+			color: #333333;
+			text-transform: uppercase;
+		}
+
 
 		p {
 			font-size: 1.4rem;
@@ -60,17 +67,6 @@ font-family: 'Lato', sans-serif;*/
 			margin-bottom: 25px;
 		}
 
-		a {
-			font-size: 1.6rem;
-			font-family: 'Lato', sans-serif;
-			color: black;
-			text-decoration: none;
-			transition: color 0.3s ease-in-out;
-		}
-
-		a:hover {
-			color: #eec12b;
-		}
 
 		hr.vertical-rule {
 			border-color: #eec12b;
@@ -81,7 +77,7 @@ font-family: 'Lato', sans-serif;*/
 			 -moz-transform:rotate(90deg);
 			 -webkit-transform:rotate(90deg);}
 
-/******** HEADER ********/
+/******** HEADER AND NAVIGATION ********/
 
 
 		.header-wrapper {
@@ -119,11 +115,31 @@ font-family: 'Lato', sans-serif;*/
 
 
 		.arrow-down a img {
+			position: absolute;
+			top: 95%;
+			left: 50%;
 			width: 5%;
 		}
 
 		.index-hero {
 			text-align: center;
+		}
+
+		ul.main-nav {
+			list-style-type: none;
+			display: flex;
+		}
+
+
+		a {
+			font-size: 1.6rem;
+			font-family: 'Lato', sans-serif;
+			color: black;
+			transition: color 0.3s ease-in-out;
+		}
+
+		a:hover {
+			color: #eec12b;
 		}
 
 /******** IMAGES ********/
@@ -139,12 +155,24 @@ font-family: 'Lato', sans-serif;*/
 		}
 
 		div.column {
+			margin-right: 25px;
+		}
+
+		div.column.first-row {
+			margin-left: 25px;
 
 		}
 
 		.column.elevator-pitch {
 			display: flex;
-		}		
+		}	
+
+
+/******** FOOTER ********/	
+
+		.footer-logo img {
+			width: 5%;
+		}			
 
 
 
