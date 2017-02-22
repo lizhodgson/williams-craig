@@ -205,6 +205,11 @@ font-family: 'Lato', sans-serif;*/
 		width: 10%;
 	}
 
+	.portfolio img {
+		width: 100%;
+		margin-top: 5%;
+	}
+
 /******** INDIVIDUAL PROJECT PAGES ********/
 
 	.column-center {
