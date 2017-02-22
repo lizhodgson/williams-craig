@@ -121,6 +121,19 @@ font-family: 'Lato', sans-serif;*/
 			width: 5%;
 		}
 
+		.arrow-up a img {
+			width: 5%;
+			-webkit-transform:rotate(180deg);
+			  -moz-transform: rotate(180deg);
+			  -ms-transform: rotate(180deg);
+			  -o-transform: rotate(180deg);
+			  transform: rotate(180deg);
+		}
+
+		.back-to-top {
+			text-align: center;
+		}
+
 		.index-hero {
 			text-align: center;
 		}
@@ -167,6 +180,12 @@ font-family: 'Lato', sans-serif;*/
 			display: flex;
 		}	
 
+		.arrow-up p {
+			text-transform: uppercase;
+			font-size: 1.8rem;
+			color: #eec12b;
+		}
+
 
 /******** FOOTER ********/	
 
@@ -185,6 +204,21 @@ font-family: 'Lato', sans-serif;*/
 	ul li a img {
 		width: 10%;
 	}
+
+/******** INDIVIDUAL PROJECT PAGES ********/
+
+	.column-center {
+		text-align: center;
+	}	
+
+	hr.vertical-rule-projects {
+			border-color: #eec12b;
+			width:10%;
+			margin: 10% 45%;
+			transform:rotate(90deg);
+			 -o-transform:rotate(90deg);
+			 -moz-transform:rotate(90deg);
+			 -webkit-transform:rotate(90deg);}
 
 
 
