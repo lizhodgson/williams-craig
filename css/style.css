@@ -212,6 +212,22 @@ font-family: 'Lato', sans-serif;*/
 
 /******** INDIVIDUAL PROJECT PAGES ********/
 
+	div.contact.details {
+		float: left;
+	}
+
+	iframe {
+		width: 50%;
+		margin-left: 20%;
+	}
+
+	div.google-logo img {
+		width: 10%;
+	}
+
+
+/******** INDIVIDUAL PROJECT PAGES ********/
+
 	.column-center {
 		text-align: center;
 	}	
