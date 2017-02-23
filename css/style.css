@@ -155,6 +155,36 @@ font-family: 'Lato', sans-serif;*/
 			color: #eec12b;
 		}
 
+/******** POP-UP MENU ********/	
+
+
+		ul.pop-top, ul.pop-up-menu {
+			list-style-type: none;
+		}
+
+		ul.pop-up-menu {
+			text-align: center;
+			margin: 20% 0;
+		}
+
+		ul.pop-top {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		ul.pop-up-menu li {
+			margin-bottom: 3.5rem;
+			font-weight: 300;
+		}	
+
+		ul.pop-up-menu li a {
+			color: white;
+			text-decoration: none;
+			text-transform: uppercase;
+			letter-spacing: .5rem;
+			font-size: 4rem;
+		}
+
 /******** IMAGES ********/
 
 		.money-shot img {
