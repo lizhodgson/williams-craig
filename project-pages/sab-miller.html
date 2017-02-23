@@ -55,6 +55,13 @@
 		</div>
 	</section>
 
+	<div class="back-to-top">
+		<div class="arrow-up">
+			<a href="#top"><img src="../images/down-arrow.png" alt="scroll up arrow"></a>
+			<p>top</p>
+		</div>
+	</div>
+
 	<footer>
 		<div class="wrapper">
 			<div class="footer-logo"><img src="../images/footer-logo.png" alt="williams craig logo"></div>
@@ -71,6 +78,24 @@
 			<div class="yellow-block"></div>
 		
 	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../js/plugins/smoothScroll/jquery.smooth-scroll.js"></script>
+	<script src="../js/main.js"></script>
+
+	<script>
+		$(function(){
+			console.log('Im ready');
+
+			// add smooth scroll to down and up arrow buttons
+
+			$('a').smoothScroll({
+				offset: 70,
+				speed: 1000
+			});
+
+		}); 
+	</script>
 	
 </body>
 </html>
