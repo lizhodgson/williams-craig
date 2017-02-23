@@ -220,19 +220,6 @@ font-family: 'Lato', sans-serif;*/
 			color: #eec12b;
 		}
 
-
-/******** FOOTER ********/	
-
-		.footer-logo img {
-			width: 5%;
-		}
-
-		.yellow-block {
-			background-color:
-			#eec12b;
-			padding: 20px;
-		}	
-
 /******** ABOUT PAGE ********/	
 
 	ul li a img {
@@ -244,7 +231,7 @@ font-family: 'Lato', sans-serif;*/
 		margin-top: 5%;
 	}
 
-/******** INDIVIDUAL PROJECT PAGES ********/
+/******** CONTACT PAGE ********/
 
 	div.contact.details {
 		float: left;
@@ -258,6 +245,7 @@ font-family: 'Lato', sans-serif;*/
 	div.google-logo img {
 		width: 10%;
 	}
+
 
 
 /******** INDIVIDUAL PROJECT PAGES ********/
@@ -274,6 +262,35 @@ font-family: 'Lato', sans-serif;*/
 			 -o-transform:rotate(90deg);
 			 -moz-transform:rotate(90deg);
 			 -webkit-transform:rotate(90deg);}
+
+	.side-by-side {
+		width: 100%;
+	}
+
+	.side-by-side img {
+		float: left;
+		width: 48%;
+	}
+
+	.image-right {
+		margin-left: 20px;
+	}
+
+	.image-left {
+		margin-right: 20px;
+	}		 
+
+
+/******** FOOTER ********/	
+
+	.footer-logo img {
+		width: 5%;
+	}
+
+	.yellow-block {
+		background-color:#eec12b;
+		padding: 20px;
+	}				 
 
 
 
