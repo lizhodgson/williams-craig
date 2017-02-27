@@ -189,6 +189,53 @@ font-family: 'Lato', sans-serif;*/
 			font-size: 4rem;
 		}
 
+/******** MODAL POP-UP ********/		
+
+		.menu {
+			display: flex;
+			justify-content: space-between;
+		}
+
+
+		.modal-container {
+			position: fixed;
+			background-color: #eec12b;
+			height: 100%;
+			width: 100%;
+			padding: 5%;
+
+			-webkit-transform: translate(-50%, -200%);
+			-ms-transform: translate(-50%, -200%);
+			transform: translate(-50%, -200%);
+
+			-webkit-transition: -webkit-transform 200ms ease-out;
+			-ms-transition: -ms-transform 200ms ease-out;
+			transition: transform 200ms ease-out;
+		}
+
+		.modal:target:before {
+			display: block;
+		}
+
+		.modal:target .modal-container {
+			top: 0;
+			display: block;
+
+			-webkit-transform: translate(0, 0);
+			-ms-transform: translate(0, 0);
+			transform: translate(0, 0);
+		}
+
+		.modal-close {}
+
+		.contact-close {
+			display: flex;
+			justify-content: space-between;
+		}
+
+/******** END MODAL POP-UP ********/
+
+
 /******** IMAGES ********/
 
 		.money-shot img {
@@ -230,6 +277,7 @@ font-family: 'Lato', sans-serif;*/
 		width: 100%;
 		margin-top: 5%;
 	}
+
 
 /******** CONTACT PAGE ********/
 
