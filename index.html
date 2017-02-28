@@ -22,7 +22,7 @@
 
 <!-- ********* HEADER *********-->
 
-		<header class="index-header clearfix">
+		<header class="index-header clearfix" id="header">
 			<div class="wrapper clearfix">
 
 
@@ -36,7 +36,9 @@
 				<div class="index-hero">
 					<div class="fade-in-logo"><img src="images/fade-in-logo.png" alt="company logo"></div>
 					<h1 class="company-name">williams craig design</h1>
-					<div class="arrow-down"><a href="#section-1"><img src="images/down-arrow.png" alt="scroll down arrow"></a></div>
+					<nav>
+						<div class="arrow-down"><a href="#section-1"><img src="images/down-arrow.png" alt="scroll down arrow"></a></div>
+					</nav> <!-- ADDED 'NAV' CLASS TO DIFFERENTIATE FROM OTHER ANCHOR TAGS -->
 				</div>
 
 				<div class="modal" id="get-in-touch">
@@ -133,11 +135,33 @@
 
 		</section>
 
+		<section>
+			<div class="wrapper">
+
+				<div class="column elevator-pitch">
+
+					<div class="column">
+						<hr class="vertical-rule">
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia iste nostrum, recusandae molestias repellat earum! </h2>
+						<hr class="vertical-rule">
+					</div>
+
+					<div class="money-shot">
+						<img src="images/residential/farnham-2.jpg" alt="elevator at 4 king street west">
+					</div>
+					
+				</div> 
+
+			</div> <!-- WRAPPER -->
+		</section>
+
 			<div class="back-to-top">
-				<div class="arrow-up">
-					<a href="#top"><img src="images/down-arrow.png" alt="scroll up arrow"></a>
-					<p>top</p>
-				</div>
+				<nav>
+					<!-- <div class="arrow-up"> -->
+						<a href="#header"><img src="images/down-arrow.png" alt="scroll up arrow"></a>
+						<p>top</p>
+					<!-- </div> -->
+				</nav>
 			</div>
 
 
@@ -168,10 +192,10 @@
 
 				// add smooth scroll to down and up arrow buttons
 
-				// $('a').smoothScroll({
-				// 	offset: 70,
-				// 	speed: 1000
-				// });
+				$('nav a').smoothScroll({
+					offset: 70,
+					speed: 1000
+				});
 
 			}); 
 		</script>

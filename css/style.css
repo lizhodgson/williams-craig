@@ -125,7 +125,7 @@ font-family: 'Lato', sans-serif;*/
 			width: 5%;
 		}
 
-		.arrow-up a img {
+		.back-to-top nav a img {
 			width: 5%;
 			-webkit-transform:rotate(180deg);
 			  -moz-transform: rotate(180deg);
