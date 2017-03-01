@@ -84,12 +84,6 @@ font-family: 'Lato', sans-serif;*/
 /******** HEADER AND NAVIGATION ********/
 
 
-		.header-wrapper {
-			margin: 0 auto 50px auto;
-			width: 900px;
-			position: relative;
-		}	
-
 		header.index-header.clearfix {
 			background-image: url(../images/commercial/sab-miller-2.jpg);
 			width: 100%;
@@ -106,17 +100,6 @@ font-family: 'Lato', sans-serif;*/
 		.fade-in-logo img {
 			width: 50%;
 		}
-
-
-		nav.landing-page {
-			margin-left: auto;
-			display: flex;
-			align-items: center;
-			width: 100%;
-			margin-bottom: 5%;
-			padding: 10px 20px 0 20px;
-		}
-
 
 		.arrow-down a img {
 			position: absolute;
@@ -145,6 +128,8 @@ font-family: 'Lato', sans-serif;*/
 		ul.main-nav {
 			list-style-type: none;
 			display: flex;
+			justify-content: space-between;
+			padding: 5%;
 		}
 
 
@@ -194,6 +179,7 @@ font-family: 'Lato', sans-serif;*/
 		.menu {
 			display: flex;
 			justify-content: space-between;
+			padding: 5%;
 		}
 
 
@@ -269,64 +255,64 @@ font-family: 'Lato', sans-serif;*/
 
 /******** ABOUT PAGE ********/	
 
-	ul li a img {
-		width: 10%;
-	}
+		ul li a img {
+			width: 10%;
+		}
 
-	.portfolio img {
-		width: 100%;
-		margin-top: 5%;
-	}
+		.portfolio img {
+			width: 100%;
+			margin-top: 5%;
+		}
 
 
 /******** CONTACT PAGE ********/
 
-	div.contact.details {
-		float: left;
-	}
+		div.contact.details {
+			float: left;
+		}
 
-	iframe {
-		width: 50%;
-		margin-left: 20%;
-	}
+		iframe {
+			width: 50%;
+			margin-left: 20%;
+		}
 
-	div.google-logo img {
-		width: 10%;
-	}
+		div.google-logo img {
+			width: 10%;
+		}
 
 
 
 /******** INDIVIDUAL PROJECT PAGES ********/
 
-	.column-center {
-		text-align: center;
-	}	
+		.column-center {
+			text-align: center;
+		}	
 
-	hr.vertical-rule-projects {
-			border-color: #eec12b;
-			width:10%;
-			margin: 10% 45%;
-			transform:rotate(90deg);
-			 -o-transform:rotate(90deg);
-			 -moz-transform:rotate(90deg);
-			 -webkit-transform:rotate(90deg);}
+		hr.vertical-rule-projects {
+				border-color: #eec12b;
+				width:10%;
+				margin: 10% 45%;
+				transform:rotate(90deg);
+				 -o-transform:rotate(90deg);
+				 -moz-transform:rotate(90deg);
+				 -webkit-transform:rotate(90deg);}
 
-	.side-by-side {
-		width: 100%;
-	}
+		.side-by-side {
+			width: 100%;
+		}
 
-	.side-by-side img {
-		float: left;
-		width: 48%;
-	}
+		.side-by-side img {
+			float: left;
+			width: 48%;
+		}
 
-	.image-right {
-		margin-left: 20px;
-	}
+		.image-right {
+			margin-left: 20px;
+		}
 
-	.image-left {
-		margin-right: 20px;
-	}		 
+		.image-left {
+			margin-right: 20px;
+		}		 
 
 
 /******** FOOTER ********/	
