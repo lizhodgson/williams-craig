@@ -243,6 +243,11 @@ font-family: 'Lato', sans-serif;*/
 
 		}
 
+		div.column.overlap {
+			margin-left: -10%;
+		}
+
+
 		.column.elevator-pitch {
 			display: flex;
 		}	
