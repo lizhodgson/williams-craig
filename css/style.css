@@ -121,6 +121,13 @@ font-family: 'Lato', sans-serif;*/
 			text-align: center;
 		}
 
+		nav p {
+			color: #eec12b;
+			text-align: center;
+			margin: 0;
+			text-transform: uppercase;
+		}
+
 		.index-hero {
 			text-align: center;
 		}
