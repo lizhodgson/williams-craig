@@ -125,11 +125,19 @@ font-family: 'Lato', sans-serif;*/
 			text-align: center;
 		}
 
-		ul.main-nav {
-			list-style-type: none;
+		.menu {
 			display: flex;
 			justify-content: space-between;
 			padding: 5%;
+		}
+
+		.logo {
+			text-align: center;
+			margin-top: -3%;
+		}
+
+		.logo img {
+			width: 10%;
 		}
 
 
@@ -145,50 +153,14 @@ font-family: 'Lato', sans-serif;*/
 		}
 
 /******** POP-UP MENU ********/	
-
-
-		ul.pop-top, ul.pop-up-menu {
-			list-style-type: none;
-		}
-
-		ul.pop-up-menu {
-			text-align: center;
-			margin: 20% 0;
-		}
-
-		ul.pop-top {
-			display: flex;
-			justify-content: space-between;
-		}
-
-		ul.pop-up-menu li {
-			margin-bottom: 3.5rem;
-			font-weight: 300;
-		}	
-
-		ul.pop-up-menu li a {
-			color: white;
-			text-decoration: none;
-			text-transform: uppercase;
-			letter-spacing: .5rem;
-			font-size: 4rem;
-		}
-
-/******** MODAL POP-UP ********/		
-
-		.menu {
-			display: flex;
-			justify-content: space-between;
-			padding: 5%;
-		}
-
-
+		
 		.modal-container {
 			position: fixed;
 			background-color: #eec12b;
 			height: 100%;
 			width: 100%;
 			padding: 5%;
+			z-index: 500;
 
 			-webkit-transform: translate(-50%, -200%);
 			-ms-transform: translate(-50%, -200%);
@@ -217,6 +189,33 @@ font-family: 'Lato', sans-serif;*/
 		.contact-close {
 			display: flex;
 			justify-content: space-between;
+		}
+
+		ul.pop-top, ul.pop-up-menu {
+			list-style-type: none;
+		}
+
+		ul.pop-up-menu {
+			text-align: center;
+			margin: 20% 0;
+		}
+
+		ul.pop-top {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		ul.pop-up-menu li {
+			margin-bottom: 3.5rem;
+			font-weight: 300;
+		}	
+
+		ul.pop-up-menu li a {
+			color: white;
+			text-decoration: none;
+			text-transform: uppercase;
+			letter-spacing: .5rem;
+			font-size: 4rem;
 		}
 
 /******** END MODAL POP-UP ********/
@@ -281,7 +280,15 @@ font-family: 'Lato', sans-serif;*/
 			margin-left: 20%;
 		}
 
-		div.google-logo img {
+
+		.google-map {
+			position: relative;
+		}
+
+		.google-map img {
+			position: absolute;
+			left: 62%;
+			top: 35%;
 			width: 10%;
 		}
 
@@ -322,8 +329,20 @@ font-family: 'Lato', sans-serif;*/
 
 /******** FOOTER ********/	
 
-	.footer-logo img {
-		width: 5%;
+	.footer-left {
+		display: flex;
+		width: 60%;
+	}
+
+	.footer-left img {
+		width: 20%;
+		height: 100%;
+		margin-right: 4%
+	}
+
+	footer .menu h6, p {
+		margin: 0;
+		margin-right: 4%;
 	}
 
 	.yellow-block {
