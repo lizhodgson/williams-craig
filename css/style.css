@@ -278,12 +278,12 @@ font-family: 'Lato', sans-serif;*/
 
 /******** CONTACT PAGE ********/
 
-		div.contact.details {
-			float: left;
+		.contact {
+			display: flex;
 		}
 
 		iframe {
-			width: 50%;
+			width: 100%;
 			margin-left: 20%;
 		}
 
@@ -297,6 +297,72 @@ font-family: 'Lato', sans-serif;*/
 			left: 62%;
 			top: 35%;
 			width: 10%;
+		}
+
+		/******** CONTACT FORM ********/
+
+		.form {
+			width: 50%;
+		}
+		.form input {
+			font-size:1.2rem;
+			text-transform: uppercase;
+			border: none;
+			border-bottom:1px solid grey;
+			padding-bottom:15px;
+			width:90%;
+			margin-bottom: 10px;
+		}
+
+		.form input:hover {
+			border-bottom:1px solid #eec12b;
+		}
+
+		.form input:focus {
+			border: none;
+			outline: none;
+			border-bottom:1px solid #eec12b;
+		}
+
+		textarea {
+			font-size:1.2rem;
+			border: none;
+			border:1px solid grey;
+			border-radius: 2px;
+			padding: 10px;
+			width:90%;
+			margin-top: 20px;
+		}
+
+		textarea:focus {
+			border: none;
+			outline: none;
+			border:1px solid #eec12b;
+		}
+
+		input.submit-button {
+			margin-top: 10px;
+			border-radius: 2px;
+			padding:10px;
+			font-family: 'Proza Libre', sans-serif;
+			font-size:1.2rem;
+			color: grey;
+			border:1px solid grey;
+			width: 40%;
+			background-color: white;
+			transition: border 0.3s ease-in-out;
+			transition: color 0.2s ease-in-out;
+
+		}
+
+		input.submit-button:hover {	
+			border:1px solid #eec12b;
+			color: #D6B343;
+		}
+
+		input.submit-button:focus {	
+			border:1px solid #eec12b;
+			color: #eec12b;
 		}
 
 
