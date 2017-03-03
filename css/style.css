@@ -205,9 +205,10 @@ font-family: 'Lato', sans-serif;*/
 		ul.pop-up-menu {
 			text-align: center;
 			margin: 20% 0;
+			padding: 0;
 		}
 
-		ul.pop-top {
+		.pop-top {
 			display: flex;
 			justify-content: space-between;
 		}
