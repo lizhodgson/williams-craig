@@ -140,7 +140,7 @@
 					
 				</div> 
 
-			</div> <!-- WRAPPER
+			</div> 
 
 		</section>
 
@@ -163,12 +163,12 @@
 					
 				</div> 
 
-			</div> <! WRAPPER -->
+			</div> 
 		</section>
 
 			<div class="back-to-top">
 				<nav>
-					<a href="#menu"><img src="images/down-arrow.png" alt="scroll up arrow"></a>
+					<a href="#header"><img src="images/down-arrow.png" alt="scroll up arrow"></a>
 					<p>top</p>
 				</nav>
 			</div>
@@ -213,38 +213,11 @@
 			}); 
 		</script>
 
-<!-- ********* HAMBURGER MENU JQUERY *********-->
-
-<script>
-	$(function() {
-
-
-	// on click on the burger, display the navigation menu
-	$('.menuIcon').on('click', function(){
-		console.log('menu was clicked');
-
-		$('.mainNav').toggleClass('showNav');
-
-		$(this).toggleClass('fa-close'); //if theres bars toggle close vic versa
-		$(this).toggleClass('fa-bars');
-
-		// $(this).toggleClass('fa-bars').toggleClass('fa-close'); //chaining method
-	});
-
-	$('.mainNav a').on('click', function(){
-		$('.mainNav').toggleClass('showNav');
-		$('.menuIcon').toggleClass('fa-bars').toggleClass('fa-close');
-	});
-
-});
-
-</script>
-
-
 <!-- ********* VIEWPORT ANIMATION JQUERY *********-->
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script src="js/plugins/distViewport/viewportchecker.js"></script> 
+		<script src="js/plugins/smoothScroll/jquery.smooth-scroll.js"></script>
 
 		<script type="text/javascript">
 		jQuery(document).ready(function() {
