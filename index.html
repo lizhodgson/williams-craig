@@ -15,6 +15,8 @@
 	<link rel="stylesheet" href="js/plugins/masonry/masonry-docs.css" media="screen">
 	<link href="css/responsive.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="js/plugins/distViewport/animate.css" />
 	
 
 </head>
@@ -22,59 +24,68 @@
 
 <!-- ********* HEADER *********-->
 
-		<header class="index-header clearfix" id="header">
-
+<header class="index-header clearfix" id="header">
 
 	<!-- ********* MENU MODAL POPUP *********-->				
 
-			<div class="menu" id="menu">
+		<div class="index-hero">
+
+			<div class="menu">
 				<a href="#get-in-touch"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
 				<a href="http://www.instagram.com"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
 			</div>
 
-			<div class="index-hero">
-				<div class="fade-in-logo"><img src="images/fade-in-logo.png" alt="company logo"></div>
-				<h1 class="company-name">williams craig design</h1>
+			
+			<img id="thelogo" class="thelogo2" src="images/fade-in-logo.png" alt="company logo">
+			
+			<h1 class="company-name">williams craig design</h1>
+
 				<nav>
-					<div class="arrow-down"><a href="#section-one"><img src="images/down-arrow.png" alt="scroll down arrow"></a></div>
-				</nav> <!-- ADDED 'NAV' CLASS TO DIFFERENTIATE FROM OTHER ANCHOR TAGS -->
+					<div class="arrow-down">
+						<a href="#section-one"><img src="images/down-arrow.png" alt="scroll down arrow"></a>
+					</div>
+				</nav> 
+		</div>
+
+
+	<div class="modal" id="get-in-touch">
+		
+		<div class="modal-container">
+		
+			<div class="pop-top">
+				<a href="#modal-close"><i class="fa fa-times fa-2x" aria-hidden="true"></i></a>
+				<a href="http://www.instagram.com"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
 			</div>
 
-			<div class="modal" id="get-in-touch">
-				
-				<div class="modal-container">
+			<div class="modal-menu">
 
-					<div class="pop-top">
-						<a href="#modal-close"><i class="fa fa-times fa-2x" aria-hidden="true"></i></a>
-						<a href="http://www.instagram.com"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-					</div>
+				<ul class="pop-up-menu">
+					<li><a href="https://lizhodgson.github.io/williams-craig/">home</a></li>
+					<li><a href="https://lizhodgson.github.io/williams-craig/about">about</a></li>
+					<li><a href="https://lizhodgson.github.io/williams-craig/projects">projects</a></li>
+					<li class="active-link"><a href="https://lizhodgson.github.io/williams-craig/contact">contact</a></li>
+				</ul>
 
-					<div class="modal-menu">
+			</div> 
+			
+		</div>
 
-						<ul class="pop-up-menu">
-							<li class="active-link"><a href="https://lizhodgson.github.io/williams-craig/">home</a></li>
-							<li><a href="https://lizhodgson.github.io/williams-craig/about">about</a></li>
-							<li><a href="https://lizhodgson.github.io/williams-craig/projects">projects</a></li>
-							<li><a href="https://lizhodgson.github.io/williams-craig/contact">contact</a></li>
-						</ul>
-
-					</div> 
-					
-				</div> <!-- END OF MODAL CONTAINER -->
-
-			</div> <!-- END OF MODAL -->
+	</div>
 
 
 		</header>
 
 
 		<section>
+
 			<div class="wrapper" id="section-one">
 
 				<div class="column elevator-pitch">
 
 					<div class="money-shot">
-						<img src="images/commercial/4-king-1.jpg" alt="elevator at 4 king street west">
+						<div class="post">
+							<img src="images/commercial/4-king-1.jpg" alt="elevator at 4 king street west">
+						</div>
 					</div>
 
 					<div class="column first-row">
@@ -85,7 +96,7 @@
 					
 				</div> 
 
-			</div> <!-- WRAPPER -->
+			</div>
 		</section>
 
 		<section>
@@ -100,12 +111,14 @@
 					</div>
 
 					<div class="money-shot">
-						<img src="images/commercial/dri-capital-2.jpg" alt="elevator at 4 king street west">
+						<div class="post">
+							<img src="images/commercial/dri-capital-2.jpg" alt="elevator at 4 king street west">
+						</div>
 					</div>
 					
 				</div> 
 
-			</div> <!-- WRAPPER -->
+			</div>
 		</section>
 
 		<section>
@@ -114,7 +127,9 @@
 				<div class="column elevator-pitch">
 
 					<div class="money-shot">
+					<div class="post">
 						<img src="images/commercial/interior-design-show-4.jpg" alt="">
+					</div>
 					</div>
 
 					<div class="column first-row">
@@ -125,7 +140,7 @@
 					
 				</div> 
 
-			</div> <!-- WRAPPER -->
+			</div> <!-- WRAPPER
 
 		</section>
 
@@ -141,12 +156,14 @@
 					</div>
 
 					<div class="money-shot">
+					<div class="post">
 						<img src="images/residential/farnham-2.jpg" alt="elevator at 4 king street west">
+					</div>
 					</div>
 					
 				</div> 
 
-			</div> <!-- WRAPPER -->
+			</div> <! WRAPPER -->
 		</section>
 
 			<div class="back-to-top">
@@ -174,6 +191,9 @@
 			
 			</footer>
 
+
+<!-- ********* JQUERY *********-->
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="js/plugins/masonry/masonry.pkgd.min.js"></script>
 		<script src="js/plugins/smoothScroll/jquery.smooth-scroll.js"></script>
@@ -192,6 +212,97 @@
 
 			}); 
 		</script>
+
+<!-- ********* HAMBURGER MENU JQUERY *********-->
+
+<script>
+	$(function() {
+
+
+	// on click on the burger, display the navigation menu
+	$('.menuIcon').on('click', function(){
+		console.log('menu was clicked');
+
+		$('.mainNav').toggleClass('showNav');
+
+		$(this).toggleClass('fa-close'); //if theres bars toggle close vic versa
+		$(this).toggleClass('fa-bars');
+
+		// $(this).toggleClass('fa-bars').toggleClass('fa-close'); //chaining method
+	});
+
+	$('.mainNav a').on('click', function(){
+		$('.mainNav').toggleClass('showNav');
+		$('.menuIcon').toggleClass('fa-bars').toggleClass('fa-close');
+	});
+
+});
+
+</script>
+
+
+<!-- ********* VIEWPORT ANIMATION JQUERY *********-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="js/plugins/distViewport/viewportchecker.js"></script> 
+
+		<script type="text/javascript">
+		jQuery(document).ready(function() {
+			jQuery('.post').addClass("hidden").viewportChecker({
+			    classToAdd: 'visible animated fadeInUp', // Class to add to the elements when they are visible
+			    offset: 100    
+			   });   
+		});            
+		</script>
+
+
+<!-- ********* LOGO SCROLL SIZING *********-->
+
+ <script type="text/javascript" src="./jquery-2.0.2.js"></script>
+
+<script type="text/javascript">//<![CDATA[
+$(window).load(function(){
+logoSize = function () {
+    // Get the real width of the logo image
+    var theLogo = $("#thelogo");
+    var newImage = new Image();
+    newImage.src = theLogo.attr("src");
+    var imgWidth = newImage.width;
+    
+    // distance over which zoom effect takes place
+    var maxScrollDistance = 1300;
+    
+    // set to window height if larger
+    maxScrollDistance = Math.min(maxScrollDistance, $(window).height());
+    
+    // width at maximum zoom out (i.e. when window has scrolled maxScrollDistance)
+    var widthAtMax = 30;
+    
+    // calculate diff and how many pixels to zoom per pixel scrolled
+    var widthDiff = imgWidth - widthAtMax;
+    var pixelsPerScroll =(widthDiff / maxScrollDistance);
+
+    $(window).scroll(function () {
+        // the currently scrolled-to position - max-out at maxScrollDistance
+        var scrollTopPos = Math.min($(document).scrollTop(), maxScrollDistance);
+        
+        // how many pixels to adjust by
+        var scrollChangePx =  Math.floor(scrollTopPos * pixelsPerScroll);
+        
+        // calculate the new width
+        var zoomedWidth = imgWidth - scrollChangePx;
+        
+        // set the width
+        $('.thelogo2').css('width', zoomedWidth);
+    });
+}
+
+logoSize();
+});//]]> 
+
+</script>
+
+
 	
 </body>
 </html>
