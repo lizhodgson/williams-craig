@@ -9,21 +9,48 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  {
 
-	div.footer-left img {
-		width: 15%;
+/******** CONTACT PAGE ********/
+
+	.column-contact {
+		width: 50%;
+	}
+
+	.form {
+		width: 100%;
 	}
 
 	.google-map iframe {
-		margin-left: 0;
-	}
-
+	        width: 100% ;
+    	}
 }
 
 @media all and (max-width: 480px) {
-	
-	div.footer-left img {
 
+
+/******** CONTACT PAGE ********/
+
+	.column-contact {
+		width: 90%;
+		margin: 0 auto;
 	}
+
+	.wrapper-contact {
+			width: 100%;
+			flex-direction: column;			
+		}
+	
+	.form {
+			width: 100%;
+		}
+
+	.google-map {
+		margin-top: 10px;
+	}
+
+
+	.google-map iframe {
+	     width: 100% !important;
+    	}
 }
 
 
