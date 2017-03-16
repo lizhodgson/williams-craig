@@ -289,19 +289,21 @@ font-family: 'Lato', sans-serif;*/
 
 /******** CONTACT PAGE ********/
 
-		.contact {
+
+		.wrapper-contact {
 			display: flex;
+			
 		}
 
-		iframe {
-			width: 100%;
-			margin-left: 20%;
+		.column {
+			display: flex;
+			flex-wrap: wrap;
 		}
 
-
-		.google-map {
-			position: relative;
+		.google-map iframe {
+			margin-top: 5%
 		}
+
 
 		.google-map img {
 			position: absolute;
@@ -310,18 +312,16 @@ font-family: 'Lato', sans-serif;*/
 			width: 10%;
 		}
 
+
 		/******** CONTACT FORM ********/
 
-		.form {
-			width: 50%;
-		}
 		.form input {
 			font-size:1.2rem;
 			text-transform: uppercase;
 			border: none;
 			border-bottom:1px solid grey;
 			padding-bottom:15px;
-			width:90%;
+			width:100%;
 			margin-bottom: 10px;
 		}
 
@@ -341,7 +341,7 @@ font-family: 'Lato', sans-serif;*/
 			border:1px solid grey;
 			border-radius: 2px;
 			padding: 10px;
-			width:90%;
+			width:100%;
 			margin-top: 20px;
 		}
 
