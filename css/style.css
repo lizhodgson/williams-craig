@@ -31,6 +31,7 @@ font-family: 'Lato', sans-serif;*/
 			font-size: 4rem;
 			font-family: 'Lato', sans-serif;
 			color: #333333;
+			text-transform: uppercase;
 		}
 
 		h1.company-name {
@@ -90,7 +91,6 @@ font-family: 'Lato', sans-serif;*/
 		header.index-header.clearfix {
 			background-image: url(../images/commercial/sab-miller-2.jpg);
 			width: 100%;
-			height: 95vh;
 			z-index:2;
 			background-position: center; 
 			background-repeat: no-repeat;
@@ -98,21 +98,19 @@ font-family: 'Lato', sans-serif;*/
 			position: relative;
 			clear: both;
 			margin-top: 0;
-			padding: 0 0 5% 0;
+			padding: 5% 0 5% 0;
 		}
 
 		.fade-in-logo img {
 			width: 50%;
-			margin: 0 auto;
-
 		}
 
 
 		.arrow-down a img {
 			position: absolute;
 			top: 95%;
-			left: calc(50% - 30px);
-			width: 60px;
+			left: 50%;
+			width: 5%;
 		}
 
 		.back-to-top nav a img {
@@ -147,7 +145,7 @@ font-family: 'Lato', sans-serif;*/
 
 		.logo {
 			text-align: center;
-			margin-top: -5%;
+			margin-top: -3%;
 		}
 
 		.logo img {
@@ -199,8 +197,7 @@ font-family: 'Lato', sans-serif;*/
 			transform: translate(0, 0);
 		}
 
-		.modal-close {
-		}
+		.modal-close {}
 
 		.contact-close {
 			display: flex;
@@ -251,11 +248,11 @@ font-family: 'Lato', sans-serif;*/
 		}
 
 		div.column {
-			margin-right: 55px;
+			margin-right: 25px;
 		}
 
 		div.column.first-row {
-			margin-left: 55px;
+			margin-left: 25px;
 
 		}
 
@@ -289,21 +286,19 @@ font-family: 'Lato', sans-serif;*/
 
 /******** CONTACT PAGE ********/
 
-
-		.wrapper-contact {
+		.contact {
 			display: flex;
-			
 		}
 
-		.column {
-			display: flex;
-			flex-wrap: wrap;
+		iframe {
+			width: 100%;
+			margin-left: 20%;
 		}
 
-		.google-map iframe {
-			margin-top: 5%
-		}
 
+		.google-map {
+			position: relative;
+		}
 
 		.google-map img {
 			position: absolute;
@@ -312,16 +307,18 @@ font-family: 'Lato', sans-serif;*/
 			width: 10%;
 		}
 
-
 		/******** CONTACT FORM ********/
 
+		.form {
+			width: 50%;
+		}
 		.form input {
 			font-size:1.2rem;
 			text-transform: uppercase;
 			border: none;
 			border-bottom:1px solid grey;
 			padding-bottom:15px;
-			width:100%;
+			width:90%;
 			margin-bottom: 10px;
 		}
 
@@ -341,7 +338,7 @@ font-family: 'Lato', sans-serif;*/
 			border:1px solid grey;
 			border-radius: 2px;
 			padding: 10px;
-			width:100%;
+			width:90%;
 			margin-top: 20px;
 		}
 
