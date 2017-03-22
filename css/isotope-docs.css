@@ -58,25 +58,25 @@
 
 
 
+
 */
 
-* {
+/** {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-}
-
+}*/
 
 
 /******** CONTAINER ********/  
 
 .container-gallery {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 .main .container-gallery > * {
-  max-width: 700px;
+  max-width: 1000px;
 }
 
 .main .container-gallery .go-wide,
@@ -84,25 +84,16 @@
   max-width: 100%;
 }
 
-/* tablet-ish */
-@media screen and ( min-width: 768px ) {
-
-  .container-gallery {
-    margin-left: 220px;
-  }
-
-  .main .container-gallery > * {
-    max-width: 900px;
-  }
-
-}
 
 /* desktop */
 @media screen and ( min-width: 960px ) {
 
   .container-gallery {
-    margin-right: 6%;
+    margin: 0 auto;
+    max-width: 1000px;
   }
+
+
 
 }
 
@@ -110,9 +101,18 @@
 
 .gallery-item {
   float: left;
-  width: calc(29% - 20px);
-  margin: 10px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  }
+
+.vert{
+  width: calc(33% - 5%);
 }
+
+.horiz {
+    width: calc(66% - 5%);
+}
+
 
 .gallery-item img {
   width: 100%;
@@ -155,6 +155,7 @@
 /******** GRID ********/  
 .grid {
   position: relative;
+  margin: 0 auto;
 }
 
 /* clearfix */
@@ -165,44 +166,79 @@
 }
 
 
+/******** TABLET ********/
 
-/******** TABLET ********/  
-  @media only screen 
+/*@media only screen 
     and (min-device-width : 768px) 
-    and (max-device-width : 1024px)  {
+    and (max-device-width : 1024px)  {*/
 
+@media all and (max-width: 1024px) {
 
+  .main .container-gallery {
+    max-width: 700px;
+    margin: 0 auto;
+  }
 
-/******** tablet gallery columns ********/ 
   .gallery-item {
-  width: calc(50% - 20px);
-}
+  margin-left: 0px;  
+  }
 
 }
 
+@media all and (max-width: 768px) {
 
-/******** MOBILE ********/  
-@media screen and (max-width: 480px){
+  .main .container-gallery {
+    max-width: 700px;
+    margin: 5%;
+  }
 
-
-
-.container-gallery {
-  margin: 20px;
-}
-
-
-/******** mobile gallery columns ********/ 
   .gallery-item {
-  width: calc(100% - 20px);
+  margin-left: 0px;  
+  }
+
 }
+
+
+/******** MOBILE ********/
+
+@media all and (max-width: 480px) {
+
+.button {
+    padding: 0px;
+  }
 
 .button-group .button {
-  padding: 5px 5px 5px 5px;
-  margin-top: 10px;
-  margin-bottom: 2px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 12px;
+  margin-left: 5px;
+}
 
+.container-gallery {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.main .container-gallery > * {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  margin-left: 0px;  
+}
+
+.vert{
+  width: calc(100%);
+}
+
+.horiz {
+    width: calc(100%)
 
 }
+
+
+
 
 
 
