@@ -382,16 +382,20 @@ font-family: 'Lato', sans-serif;*/
 
 		.column-center {
 			text-align: center;
-		}	
+		}
 
 		hr.vertical-rule-projects {
-				border-color: #eec12b;
-				width:10%;
-				margin: 10% 45%;
-				transform:rotate(90deg);
-				 -o-transform:rotate(90deg);
-				 -moz-transform:rotate(90deg);
-				 -webkit-transform:rotate(90deg);}
+
+			border: 0;
+			border-top: 2px solid #eec12b;
+
+			width:15%;
+			margin: 20% 50%;
+
+			transform:rotate(90deg);
+			 -o-transform:rotate(90deg);
+			 -moz-transform:rotate(90deg);
+			 -webkit-transform:rotate(90deg);}	
 
 		.side-by-side {
 			width: 100%;
@@ -408,6 +412,10 @@ font-family: 'Lato', sans-serif;*/
 
 		.image-left {
 			margin-right: 20px;
+		}
+
+		.wrapper.column-center p {
+			margin-right: 0;
 		}		 
 
 
@@ -420,11 +428,11 @@ font-family: 'Lato', sans-serif;*/
 
 		.footer-left img {
 			width: 15%;
-			height: 100%;
+			height: 15%;
 			margin-right: 4%;
 		}
 
-		footer .menu h6, p {
+		footer .menu h6 {
 			margin: 0;
 			margin-right: 4%;
 		}
