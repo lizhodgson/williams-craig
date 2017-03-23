@@ -13,6 +13,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,900" rel="stylesheet">
 
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="js/plugins/flickity/flickity.min.css" media="screen">
 	<link rel="stylesheet" href="js/plugins/masonry/masonry-docs.css" media="screen">
 	<link href="css/responsive.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
@@ -26,6 +27,7 @@
 <!-- ********* HEADER *********-->
 
 	<header class="index-header clearfix" id="header">
+
 
 	<!-- ********* MENU MODAL POPUP *********-->				
 
@@ -70,6 +72,12 @@
 
 
 	</header>
+
+	<div class="carousel" data-flickity='{ "autoPlay": true }'>
+		<div class="carousel-cell"><img src="images/commercial/sab-miller-2.jpg" alt="Sab Miller boardroom"></div>
+		<div class="carousel-cell"><img src="images/residential/cottingham-3.jpg" alt="Cottingham kitchen"></div>
+		<div class="carousel-cell"><img src="images/commercial/lush-2.jpg" alt="Lush store"></div>
+	</div>
 
 
 		<section id="section-one">
@@ -253,6 +261,21 @@
 
 			}); 
 		</script>
+
+<!-- ********* FLICKITY ***********-->
+
+		<script src="js/plugins/flickity/flickity.pkgd.min.js"></script>
+		<script>
+			$(function(){
+				console.log('Im ready');
+				// adding flickity to my testimonial slider
+				$('.main-carousel').flickity({
+					wrapAround: true,
+					initialIndex: 2
+				});
+
+			}); 
+		</script>		
 
 <!-- ********* VIEWPORT ANIMATION JQUERY *********-->
 
