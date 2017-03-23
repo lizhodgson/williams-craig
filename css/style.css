@@ -161,7 +161,7 @@ font-family: 'Lato', sans-serif;*/
 		    padding-bottom:2px;
 		}
 
-		.flickity-prev-next-button {
+		.flickity-prev-next-button, ol.flickity-page-dots {
 			display:none;
 		}
 
