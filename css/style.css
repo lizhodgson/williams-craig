@@ -426,6 +426,31 @@ font-family: 'Lato', sans-serif;*/
 			margin-top: 10%;
 		}
 
+		.footer-logo {
+			background-image: url(../images/logo.png);
+			width: 100%;
+			background-position: center; 
+			background-repeat: no-repeat;
+			background-size: contain;
+		}	
+
+		span {
+			font-size: 1.4rem;
+			line-height: 2.5rem;
+			margin: 0 3%;
+			width: 180px;
+		}
+
+		span.company-name {
+			text-transform: uppercase;
+			font-size: 1.6rem;
+			font-weight: 500;
+		}
+
+		p.company-details {
+			margin: 0;
+		}
+
 		.footer-left {
 			display: flex;
 		}
