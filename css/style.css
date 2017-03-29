@@ -32,6 +32,7 @@ font-family: 'Lato', sans-serif;*/
 			font-size: 4rem;
 			color: #333333;
 			font-family: 'Raleway', sans-serif;
+			text-transform: capitalize;
 		}
 
 		h1.company-name {
@@ -292,6 +293,10 @@ font-family: 'Lato', sans-serif;*/
 		.portfolio img {
 			width: 100%;
 			margin-top: 5%;
+		}
+
+		.overlap {
+			z-index: 2;
 		}
 
 
