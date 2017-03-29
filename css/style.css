@@ -112,25 +112,6 @@ font-family: 'Lato', sans-serif;*/
 			width: 60px;
 		}
 
-		.back-button {
-			position: fixed;
-			top: 50%;
-			transform:rotate(-90deg);
-			 -o-transform:rotate(-90deg);
-			 -moz-transform:rotate(-90deg);
-			 -webkit-transform:rotate(-90deg);
-		}
-
-		.back-button a {
-			text-decoration: none;
-		}
-
-		.back-button a p {
-			font-size: 2rem;
-			font-weight: 500;
-			color: grey;
-		}
-
 
 		.back-to-top nav a img {
 			width: 5%;
@@ -407,6 +388,29 @@ font-family: 'Lato', sans-serif;*/
 
 
 /******** INDIVIDUAL PROJECT PAGES ********/
+
+		.back-button {
+			position: fixed;
+			top: 50%;
+			transform:rotate(-90deg);
+			 -o-transform:rotate(-90deg);
+			 -moz-transform:rotate(-90deg);
+			 -webkit-transform:rotate(-90deg);
+		}
+
+		.back-button a {
+			text-decoration: none;
+		}
+
+		.back-button a p {
+			font-size: 2rem;
+			font-weight: 500;
+			color: grey;
+		}
+
+		.back-button a p:hover {
+			color: black;
+		}
 
 		.column-center {
 			text-align: center;
