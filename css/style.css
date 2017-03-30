@@ -160,6 +160,10 @@ font-family: 'Lato', sans-serif;*/
 			transition: color 0.3s ease-in-out;
 		}
 
+		a.menu-white {
+			color: white;
+		}
+
 		ul li.active-link>a{
 		    border-bottom: 2px solid white;
 		    padding-bottom:2px;
