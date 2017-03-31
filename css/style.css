@@ -13,7 +13,7 @@ font-family: 'Lato', sans-serif;*/
 
 /******** TYPOGRAPHY ********/
 
-		body {
+				body {
 			background-color: white;
 			font-family: 'Rubik', sans-serif;
 		}
@@ -76,7 +76,7 @@ font-family: 'Lato', sans-serif;*/
     		border-top: 2px solid #eec12b;
 
 			width:15%;
-			margin: 20% 50%;
+			margin: 20% 40%;
 
 			transform:rotate(90deg);
 			 -o-transform:rotate(90deg);
@@ -112,6 +112,25 @@ font-family: 'Lato', sans-serif;*/
 			top: 95%;
 			left: calc(50% - 30px);
 			width: 60px;
+		}
+
+		.back-button {
+			position: fixed;
+			top: 50%;
+			transform:rotate(-90deg);
+			 -o-transform:rotate(-90deg);
+			 -moz-transform:rotate(-90deg);
+			 -webkit-transform:rotate(-90deg);
+		}
+
+		.back-button a {
+			text-decoration: none;
+		}
+
+		.back-button a p {
+			font-size: 2rem;
+			font-weight: 500;
+			color: grey;
 		}
 
 
@@ -151,7 +170,8 @@ font-family: 'Lato', sans-serif;*/
 		}
 
 		.logo img {
-			width: 10%;
+			width: 150px;
+			height: auto;
 		}
 
 		a {
@@ -163,6 +183,7 @@ font-family: 'Lato', sans-serif;*/
 		a.menu-white {
 			color: white;
 		}
+
 
 		ul li.active-link>a{
 		    border-bottom: 2px solid white;
@@ -235,7 +256,6 @@ font-family: 'Lato', sans-serif;*/
 		}	
 
 		ul.pop-up-menu li a {
-			font-family: 'Raleway', sans-serif;
 			color: white;
 			text-decoration: none;
 			text-transform: uppercase;
@@ -243,6 +263,7 @@ font-family: 'Lato', sans-serif;*/
 			font-size: 4rem;
 		}
 
+/******** END MODAL POP-UP ********/
 
 
 /******** IMAGES ********/
@@ -251,28 +272,37 @@ font-family: 'Lato', sans-serif;*/
 			width: 100%;
 		}
 
-/******** INDEX PAGE MAIN SECTION LAYOUT ********/		
+/******** INDEX PAGE MAIN SECTION LAYOUT ********/	
 
-		section {
-			margin: 10%;
+		.logoIndex img{
+			width: 500px;
 		}
 
-		div.column {
-			margin-right: 55px;
+		section{
+			margin: 0 auto;
+			margin-top: 10%;
+			padding: 30px;
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
 		}
 
-		div.column.first-row {
+		.column {
+			/*margin-right: 55px;*/
+			margin: 0 auto;
+		}
+
+		.first-row {
 			margin-left: 55px;
-
+			padding-right: 55px;
 		}
 
-		div.column.overlap {
-			margin-left: -10%;
+		.overlap {
+			margin-left: -3%;
+			/*padding-right: 55px;*/
 		}
 
-
-		.column.elevator-pitch {
-			/*margin-top: 30px;*/
+		.elevator-pitch {
 			display: flex;
 		}	
 
@@ -311,6 +341,9 @@ font-family: 'Lato', sans-serif;*/
 
 		.wrapper-contact {
 			display: flex;
+		  max-width: 1000px;
+		  margin: 0 auto;
+		}
 			
 		}
 
@@ -374,7 +407,7 @@ font-family: 'Lato', sans-serif;*/
 			margin-top: 10px;
 			border-radius: 2px;
 			padding:10px;
-			font-family: 'Rubik', sans-serif;
+			font-family: 'Proza Libre', sans-serif;
 			font-size:1.2rem;
 			color: grey;
 			border:1px solid grey;
@@ -398,29 +431,6 @@ font-family: 'Lato', sans-serif;*/
 
 
 /******** INDIVIDUAL PROJECT PAGES ********/
-
-		.back-button {
-			position: fixed;
-			top: 50%;
-			transform:rotate(-90deg);
-			 -o-transform:rotate(-90deg);
-			 -moz-transform:rotate(-90deg);
-			 -webkit-transform:rotate(-90deg);
-		}
-
-		.back-button a {
-			text-decoration: none;
-		}
-
-		.back-button a p {
-			font-size: 2rem;
-			font-weight: 500;
-			color: grey;
-		}
-
-		.back-button a p:hover {
-			color: black;
-		}
 
 		.column-center {
 			text-align: center;
@@ -464,38 +474,20 @@ font-family: 'Lato', sans-serif;*/
 /******** FOOTER ********/	
 
 		footer {
-			margin-top: 10%;
-		}
-
-		.footer-logo {
-			background-image: url(../images/logo.png);
-			width: 100%;
-			background-position: center; 
-			background-repeat: no-repeat;
-			background-size: contain;
-		}	
-
-		span {
-			font-size: 1.4rem;
-			line-height: 2.5rem;
-			margin: 0 3%;
-			width: 180px;
-		}
-
-		span.company-name {
-			text-transform: uppercase;
-			font-size: 1.6rem;
-			font-weight: 500;
-		}
-
-		p.company-details {
-			margin: 0;
-		}
-
-		.footer-left {
+			width: 80%;
 			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin-left: 10%;
+			margin-top: 50px;
+			margin-bottom: 20px;
 		}
 
+		.columnFooter {
+		  	display: flex;
+		  	flex-direction: row;
+		  	flex-wrap: wrap;
+		}
 
 		.yellow-block {
 			background-color:#eec12b;
