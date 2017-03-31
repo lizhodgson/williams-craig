@@ -9,7 +9,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 yellow: #eec12b
 
-font-family: 'Lato', sans-serif;*/
 
 /******** TYPOGRAPHY ********/
 
@@ -151,7 +150,8 @@ font-family: 'Lato', sans-serif;*/
 		}
 
 		.logo img {
-			width: 10%;
+			width: 150px;
+			height: auto;
 		}
 
 		a {
@@ -252,6 +252,10 @@ font-family: 'Lato', sans-serif;*/
 		}
 
 /******** INDEX PAGE MAIN SECTION LAYOUT ********/		
+
+		.logoIndex img{
+			width: 500px;
+		}
 
 		section {
 			margin: 10%;
