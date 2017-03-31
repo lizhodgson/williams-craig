@@ -275,13 +275,10 @@ yellow: #eec12b
 
 		.logoIndex img{
 			width: 500px;
-<<<<<<< HEAD
 		}
 
 		section {
 			margin: 10%;
-=======
->>>>>>> origin/gh-pages
 		}
 
 		section{
@@ -341,16 +338,13 @@ yellow: #eec12b
 		}
 
 
-
 /******** CONTACT PAGE ********/
 
 
 		.wrapper-contact {
 			display: flex;
-		  max-width: 1000px;
-		  margin: 0 auto;
-		}
-			
+			max-width: 1000px;
+			margin: 0 auto;
 		}
 
 		.column-contact {
