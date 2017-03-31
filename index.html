@@ -9,28 +9,25 @@
 
 	<title>Williams-Craig</title>
 
+<<<<<<< HEAD
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700|Rubik:300,300i,400,500" rel="stylesheet">
 
 	<script src="https://use.fontawesome.com/12151f0635.js"></script>
+=======
+	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,900" rel="stylesheet">
+>>>>>>> origin/gh-pages
 
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="js/plugins/flickity/flickity.min.css" media="screen">
 	<link rel="stylesheet" href="js/plugins/masonry/masonry-docs.css" media="screen">
 	<link href="css/responsive.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="js/plugins/distViewport/animate.css" />
+	
 
 </head>
 <body>
-
-
-<!-- 
-CSS image transition on homepage header (L)
-position fixed on index page logo == more defined (C)
-projects page — fix grid + button alignment (C)
-responsive (C)
-look into google map api key (C)
-code cleanup (both) -->
 
 <!-- ********* HEADER *********-->
 
@@ -60,9 +57,7 @@ code cleanup (both) -->
 
 
 		<div class="arrow-down">
-			<nav>
-				<a href="#section-one"><img src="images/down-arrow.png" alt="scroll down arrow"></a>
-			</nav> <!-- WRAPPED IN NAV TAGS FOR SMOOTH SCROLL -->
+			<a href="#section-one"><img src="images/down-arrow.png" alt="scroll down arrow"></a>
 		</div>
 
 
@@ -77,23 +72,66 @@ code cleanup (both) -->
 				<div class="modal-menu">
 
 					<ul class="pop-up-menu">
-						<li class="active-link"><a href="https://lizhodgson.github.io/williams-craig/">home</a></li>
-						<li ><a href="https://lizhodgson.github.io/williams-craig/about">about</a></li>
-						<li><a href="https://lizhodgson.github.io/williams-craig/projects">projects</a></li>
-						<li><a href="https://lizhodgson.github.io/williams-craig/contact">contact</a></li>
+						<li><a href="index.html">home</a></li>
+						<li><a href="about.html">about</a></li>
+						<li><a href="filtering.html">projects</a></li>
+						<li class="active-link"><a href="contact.html">contact</a></li>
 					</ul>
-
-				</div>
+			</div> 
 		</div>
 
 
 	</header>
 
+	<!-- <section id="section-one"> -->
+
+<!-- ********* SMALL BLACK LOGO FADE IN AFTER SCROLLING *********-->
+	
+	<!-- 	<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="150px" height="109.333px" viewBox="0 0 200 109.333" enable-background="new 0 0 200 109.333" xml:space="preserve">
+
+<path fill="#010101" d="M145.371,103.836c-16.291,0-31.523-8.035-40.744-21.498c-0.318-0.469-0.633-0.944-0.936-1.421
+	c0,0-0.67,1.234-1.035,1.868c-0.361,0.633-0.912,1.528-0.912,1.528c9.52,13.898,25.51,23.019,43.627,23.019
+	c29.188,0,52.842-23.66,52.842-52.842s-23.654-52.84-52.842-52.84c-29.186,0-52.842,23.657-52.842,52.84
+	c0,6.916,1.329,13.52,3.746,19.576c0,0,0.449-1.059,0.976-2.306c0.573-1.36,0.553-1.355,0.98-2.623
+	c-1.464-4.72-2.207-9.633-2.207-14.647c0-27.208,22.137-49.344,49.346-49.344c27.211,0,49.348,22.136,49.348,49.344
+	C194.719,81.7,172.582,103.836,145.371,103.836"
+	data-0="fill:rgb(255,255,255);"
+	data-800="fill:rgb(0,0,0);"/></path>
+
+<path fill="#010101" d="M54.626,5.145c16.293,0,31.525,8.035,40.744,21.498c0.322,0.469,0.631,0.944,0.938,1.421
+	c0,0,0.67-1.233,1.033-1.866c0.365-0.635,0.914-1.53,0.914-1.53C88.734,10.767,72.745,1.649,54.626,1.649
+	c-29.185,0-52.84,23.655-52.84,52.842c0,29.18,23.655,52.84,52.84,52.84c29.186,0,52.844-23.66,52.844-52.84
+	c0-6.917-1.332-13.52-3.748-19.577c0,0-0.449,1.06-0.975,2.307c-0.576,1.36-0.553,1.355-0.982,2.622
+	c1.465,4.721,2.209,9.633,2.209,14.648c0,27.208-22.139,49.344-49.348,49.344C27.415,103.836,5.28,81.7,5.28,54.492
+	C5.28,27.279,27.415,5.145,54.626,5.145"
+	data-0="fill:rgb(255,255,255);"
+	data-800="fill:rgb(0,0,0);"/></path>
+
+<path fill="#010101" d="M23.533,34.431h4.087l10.517,28.625c0.682,1.846,1.363,4.283,1.456,4.77c0-0.294,0.684-2.826,1.562-4.77
+	l11.877-29.012h0.876l12.076,28.915c0.877,2.041,1.654,4.867,1.654,4.867s0.582-2.826,1.36-4.867l10.516-28.528h3.893L68.024,74.934
+	h-0.972L54.98,45.336c-0.686-1.656-1.366-3.991-1.458-4.478c-0.104,0.292-0.686,2.722-1.363,4.478L39.886,74.934h-0.972
+	L23.533,34.431z"
+	data-0="fill:rgb(255,255,255);"
+	data-800="fill:rgb(0,0,0);"/></path>
 
 
+<path fill="#010101" d="M125.502,54.538c0-11.393,8.76-20.739,20.148-20.739c6.723,0,11.689,2.532,15.09,6.719l-2.721,2.238
+	c-2.826-3.507-6.52-5.547-12.369-5.547c-9.732,0-16.162,7.493-16.162,17.33c0,9.737,6.43,17.232,16.162,17.232
+	c6.234,0,10.328-2.337,13.146-5.943l2.73,2.244c-3.703,4.574-8.666,7.11-15.877,7.11C134.262,75.182,125.502,65.931,125.502,54.538"
+	data-0="fill:rgb(255,255,255);"
+	data-800="fill:rgb(0,0,0);"/></path>
+</svg>
 
-	<section id="section-one">
+	</section> -->
 
+<!-- ********* BEGINNING OF COPY *********-->
+	<section>
+
+
+<<<<<<< HEAD
 <!-- ********* SMALL BLACK LOGO FADE IN AFTER SCROLLING *********-->
 <!-- 		<div class="logo">
 
@@ -136,12 +174,18 @@ code cleanup (both) -->
 				data-1300="fill:rgb(0,0,0);;"></path>
 			</g>
 		</svg> -->
+=======
 
-	</section>
+		<div class="wrapper">
+>>>>>>> origin/gh-pages
 
-<!-- ********* BEGINNING OF COPY *********-->
-	<section>
+		<div class="logo">
+			<img src="images/logo.svg" alt="williams craig logo">
+		</div>
 
+		</br></br></br></br>
+
+<<<<<<< HEAD
 		<div class="wrapper">
 
 		<div class="wrapper">
@@ -152,6 +196,8 @@ code cleanup (both) -->
 
 		</br></br></br></br>
 		
+=======
+>>>>>>> origin/gh-pages
 			<div class="column elevator-pitch">
 
 					<div class="money-shot">
@@ -246,22 +292,21 @@ code cleanup (both) -->
 	</div>
 
 	<footer>
-		<div class="menu">
 
-			<div class="footer-left">
-				<img src="images/footer-logo.png" alt="williams craig logo">
-				<span class="company-name">williams-craig<br>interior design</span>
-				<span class="footer-detail">38 Ossington Avenue<br>Toronto, ON M6J 2Y7</span>
+			<div class="columnFooter">
+				<img src="images/logo.svg" alt="williams craig logo">
 			</div>
 
-			<p class="company-details">Tel: 416.516.2177<br>Email: info@williamscraigdesign.com</p>
-			
-		</div>	
+			<div class="columnFooter">
+				<p>Tel: 416.516.2177<br>Email:info@williamscraigdesign.com</p>
+			</div>
 
-		<div class="yellow-block"></div>
-
-	
+			<div class="columnFooter">
+				<p>38 Ossingon Avenue<br>Toronto, ON M6J 2Y7</p>
+			</div>
 	</footer>
+<div class="yellow-block"></div>
+
 
 
 <!-- ********* JQUERY *********-->
