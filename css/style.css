@@ -301,6 +301,11 @@ yellow: #eec12b
 			padding-right: 55px;
 		}
 
+		.details-left {
+			margin-right: 55px;
+			/*padding-right: 55px;*/
+		}
+
 		.overlap {
 			margin-left: -3%;
 			/*padding-right: 55px;*/
