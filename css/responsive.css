@@ -48,13 +48,13 @@ and (max-device-width : 1024px)  {
 
 		hr.vertical-rule {
 			margin-left: -20px;
+			margin-top: -20px;
 		}
 
 
 		section{
 			margin: 0 auto;
-			margin-top: 10%;
-			padding: 10px;
+			padding: 0px;
 		}
 
 		.column {
@@ -72,8 +72,18 @@ and (max-device-width : 1024px)  {
 			padding-right: 0px;
 		}
 
+		.money-shot {
+			order: -2;
+			/*margin-top: -20px;*/
+		}
+
+
 		.elevator-pitch {
-			margin-top: 0px;
+			margin-top: -20px;
+		}
+
+		.first-row {
+			margin-top: 20px;
 		}
 
 
