@@ -10,19 +10,17 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  {
 
+	.logoIndex img{
+			margin-top: 20%;
+		}
+
 /******** CONTACT PAGE ********/
 
-	.column-contact {
-		width: 50%;
-	}
-
-	.form {
-		width: 100%;
-	}
-
 	.google-map iframe {
-	        width: 100% ;
-    	}
+		width: 300px;
+	}
+
+
 }
 
 @media all and (max-width: 480px) {
