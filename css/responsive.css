@@ -6,83 +6,78 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+
+/******** TABLET SIZE ********/
+
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  {
 
 	.logoIndex img{
-			margin-top: 20%;
-		}
-
-/******** CONTACT PAGE ********/
+		margin-top: 20%;
+	}
 
 	.google-map iframe {
 		width: 300px;
 	}
-
-
 }
+
+/******** MOBILE SIZE ********/
 
 @media all and (max-width: 480px) {
 
-		.logoIndex img{
-			margin-top: 40%;
-			width:50%;
-			max-width:200px;
-		}
+	.logoIndex img{
+		margin-top: 40%;
+		width:50%;
+		max-width:200px;
+	}
 
-		.logo img{
-			margin-top: 50px;
-			width:50%;
-			max-height:60px;
-		}
+	.logo img{
+		margin-top: 50px;
+		width:50%;
+		max-height:60px;
+	}
 
+	.wrapper {
+		max-width: 100%;
+		margin: 0 auto;
+	}
 
+	hr.vertical-rule {
+		margin-left: -20px;
+		margin-top: -20px;
+	}
 
-		.wrapper {
-		  max-width: 100%;
-		  margin: 0 auto;
-		}
+	section{
+		margin: 0 auto;
+		padding: 0px;
+	}
 
-		hr.vertical-rule {
-			margin-left: -20px;
-			margin-top: -20px;
-		}
+	.column {
+		flex-wrap: wrap;
+		margin-right: 0px;
+	}
 
+	.column .overlap {
+		margin-left: 0px;
+	}
 
-		section{
-			margin: 0 auto;
-			padding: 0px;
-		}
+	.column .first-row {
+		margin-left: 0px;
+		padding-right: 0px;
+	}
 
-		.column {
-			/*margin: 0 auto;*/
-			flex-wrap: wrap;
-			margin-right: 0px;
-		}
+	.money-shot {
+		order: -2;
+	}
 
-		.column .overlap {
-			margin-left: 0px;
-		}
+	.elevator-pitch {
+		margin-top: -20px;
+	}
 
-		.column .first-row {
-			margin-left: 0px;
-			padding-right: 0px;
-		}
-
-		.money-shot {
-			order: -2;
-			/*margin-top: -20px;*/
-		}
-
-
-		.elevator-pitch {
-			margin-top: -20px;
-		}
-
-		.first-row {
-			margin-top: 20px;
-		}
+	.first-row {
+		margin-top: 20px;
+	}
 
 
 /******** CONTACT PAGE ********/
@@ -109,7 +104,6 @@ and (max-device-width : 1024px)  {
 	.google-map iframe {
 	     width: 100% !important;
     	}
-}
 
 /******** FOOTER ********/
 
@@ -122,15 +116,6 @@ and (max-device-width : 1024px)  {
 	}
 
 
-	.columnFooter {
-
-		}
 
 
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> origin/gh-pages
 
