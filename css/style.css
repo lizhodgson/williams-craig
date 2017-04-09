@@ -18,8 +18,8 @@ yellow: #eec12b
 		}
 
 		.wrapper {
-		  max-width: 1000px;
-		  margin: 0 auto;
+		 	max-width: 1000px;
+		 	margin: 0 auto;
 		}
 
 
@@ -62,7 +62,6 @@ yellow: #eec12b
 			font-weight: 400;
 		}
 
-
 		p {
 			font-size: 1.4rem;
 			line-height: 2.5rem;
@@ -82,8 +81,8 @@ yellow: #eec12b
 			 -moz-transform:rotate(90deg);
 			 -webkit-transform:rotate(90deg);}
 
-/******** HEADER AND NAVIGATION ********/
 
+/******** HEADER AND NAVIGATION ********/
 
 
 		header.index-header.clearfix {
@@ -103,7 +102,6 @@ yellow: #eec12b
 		.fade-in-logo img {
 			width: 50%;
 			margin: 0 auto;
-
 		}
 
 		.arrow-down a img {
@@ -132,14 +130,13 @@ yellow: #eec12b
 			color: grey;
 		}
 
-
 		.back-to-top nav a img {
 			width: 5%;
 			-webkit-transform:rotate(180deg);
-			  -moz-transform: rotate(180deg);
-			  -ms-transform: rotate(180deg);
-			  -o-transform: rotate(180deg);
-			  transform: rotate(180deg);
+			-moz-transform: rotate(180deg);
+			-ms-transform: rotate(180deg);
+			-o-transform: rotate(180deg);
+			transform: rotate(180deg);
 		}
 
 		.back-to-top {
@@ -183,7 +180,6 @@ yellow: #eec12b
 			color: white;
 		}
 
-
 		ul li.active-link>a{
 		    border-bottom: 2px solid white;
 		    padding-bottom:2px;
@@ -196,6 +192,7 @@ yellow: #eec12b
 
 /******** POP-UP MENU ********/	
 		
+
 		.modal-container {
 			position: fixed;
 			background-color: #eec12b;
@@ -292,7 +289,6 @@ yellow: #eec12b
 		}
 
 		.column {
-			/*margin-right: 55px;*/
 			margin: 0 auto;
 		}
 
@@ -303,12 +299,10 @@ yellow: #eec12b
 
 		.details-left {
 			margin-right: 55px;
-			/*padding-right: 55px;*/
 		}
 
 		.overlap {
 			margin-left: -3%;
-			/*padding-right: 55px;*/
 		}
 
 		.elevator-pitch {
@@ -321,7 +315,9 @@ yellow: #eec12b
 			color: #eec12b;
 		}
 
+
 /******** ABOUT PAGE ********/	
+
 
 		ul li a img {
 			width: 10%;
@@ -329,9 +325,7 @@ yellow: #eec12b
 
 		.portfolio p {
 			font-size: 1.8rem;
-			line-height: 
 			margin: 2rem 0;
-
 		}
 
 		.portfolio img {
@@ -362,7 +356,6 @@ yellow: #eec12b
 			margin-top: 5%
 		}
 
-
 		.google-map img {
 			position: absolute;
 			left: 62%;
@@ -371,7 +364,7 @@ yellow: #eec12b
 		}
 
 
-		/******** CONTACT FORM ********/
+/******** CONTACT FORM ********/
 
 		.form input {
 			font-size:1.2rem;
@@ -421,7 +414,6 @@ yellow: #eec12b
 			background-color: white;
 			transition: border 0.3s ease-in-out;
 			transition: color 0.2s ease-in-out;
-
 		}
 
 		input.submit-button:hover {	
@@ -435,8 +427,8 @@ yellow: #eec12b
 		}
 
 
-
 /******** INDIVIDUAL PROJECT PAGES ********/
+
 
 		.column-center {
 			text-align: center;
@@ -453,7 +445,8 @@ yellow: #eec12b
 			transform:rotate(90deg);
 			 -o-transform:rotate(90deg);
 			 -moz-transform:rotate(90deg);
-			 -webkit-transform:rotate(90deg);}	
+			 -webkit-transform:rotate(90deg);
+		}	
 
 		.side-by-side {
 			width: 100%;
@@ -479,6 +472,7 @@ yellow: #eec12b
 
 /******** FOOTER ********/	
 
+
 		footer {
 			width: 80%;
 			display: flex;
@@ -502,14 +496,13 @@ yellow: #eec12b
 		}		
 
 
-
 /******** VIEWPORT ANIMATION ********/
 
 		.hidden{
-		     opacity:0;
+		    opacity:0;
 		}
 		.visible{
-		     opacity:1;
+		    opacity:1;
 		}		 
 
 
