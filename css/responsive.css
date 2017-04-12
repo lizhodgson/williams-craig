@@ -17,9 +17,16 @@ and (max-device-width : 1024px)  {
 		margin-top: 20%;
 	}
 
-	.google-map iframe {
-		width: 300px;
+	.column-contact {
+		width: 50%;
+		margin: 0 auto;
 	}
+
+	#map {
+		margin-top: 50px;
+        height:300px;
+        width: 500px;
+      }
 }
 
 /******** MOBILE SIZE ********/
@@ -88,22 +95,13 @@ and (max-device-width : 1024px)  {
 	}
 
 	.wrapper-contact {
-			width: 100%;
-			flex-direction: column;			
-		}
+		width: 100%;
+		flex-direction: column;			
+	}
 	
 	.form {
-			width: 100%;
-		}
-
-	.google-map {
-		margin-top: 10px;
+		width: 100%;
 	}
-
-
-	.google-map iframe {
-	     width: 100% !important;
-    	}
 
 /******** FOOTER ********/
 

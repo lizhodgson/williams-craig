@@ -352,16 +352,11 @@ yellow: #eec12b
 			flex-wrap: wrap;
 		}
 
-		.google-map iframe {
-			margin-top: 5%
-		}
-
-		.google-map img {
-			position: absolute;
-			left: 62%;
-			top: 35%;
-			width: 10%;
-		}
+		#map {
+			margin-top: 50px;
+	        height:420px;
+	        width: 500px;
+      }
 
 
 /******** CONTACT FORM ********/
