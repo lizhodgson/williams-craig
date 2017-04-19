@@ -68,8 +68,14 @@ yellow: #eec12b
 			margin-bottom: 25px;
 		}
 
-		.subtext {
-			width: 50%;
+		a.w5-project {
+			font-size: 1.4rem;
+			line-height: 2.5rem;
+			font-weight: 600;
+		}
+
+		.williamscraig {
+			text-transform: uppercase;
 		}
 
 		hr.vertical-rule {
@@ -269,7 +275,7 @@ yellow: #eec12b
 
 /******** IMAGES ********/
 
-		.money-shot img {
+		.post img {
 			width: 100%;
 		}
 
@@ -299,6 +305,7 @@ yellow: #eec12b
 		.first-row {
 			margin-left: 55px;
 			padding-right: 55px;
+			width: 75%;
 		}
 
 		.details-left {
