@@ -31,7 +31,7 @@ yellow: #eec12b
 			font-size: 4rem;
 			color: #333333;
 			font-family: 'Raleway', sans-serif;
-			text-transform: capitalize;
+			text-transform: uppercase;
 		}
 
 		h1.company-name {
@@ -66,6 +66,10 @@ yellow: #eec12b
 			font-size: 1.4rem;
 			line-height: 2.5rem;
 			margin-bottom: 25px;
+		}
+
+		.subtext {
+			width: 50%;
 		}
 
 		hr.vertical-rule {
