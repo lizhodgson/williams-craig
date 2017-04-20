@@ -36,6 +36,7 @@ yellow: #eec12b
 
 		h1.company-name {
 			color: white;
+			font-size: 4rem;
 			text-transform: uppercase;
 			font-weight: 400;
 			letter-spacing: 2px;
@@ -301,12 +302,11 @@ yellow: #eec12b
 		}
 
 		section {
-			margin: 10%;
+			margin: 8%;
 		}
 
 		section{
 			margin: 0 auto;
-			margin-top: 10%;
 			padding: 30px;
 			display: flex;
 			flex-wrap: wrap;
@@ -340,46 +340,6 @@ yellow: #eec12b
 			font-size: 1.8rem;
 			color: #eec12b;
 		}
-
-		
-		.who-we-are {
-			position: relative;
-		}
-
-		.who-we-are h1 {
-			position: absolute;
-			top: 40%; 
-			left: 55%; 
-			width: 100%;
-			text-shadow: 2px 4px 3px rgba(0,0,0,0.3); 
-		}
-
-		.who-we-are .post {
-			width: 65%;
-		}
-
-		.who-we-are .post img {
-			width: 100%;
-		}
-
-		.what-we-do {
-			display: flex;
-		}
-
-		.elevator-1 {
-			width: 45%;
-			margin-right: 2rem;
-		}
-
-		.what-we-do .post {
-			width: 60%;
-		}
-
-		.wrapper.section {
-			margin: 0 auto;
-			margin: 5%;
-		}
-
 
 
 
