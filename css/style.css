@@ -199,6 +199,21 @@ yellow: #eec12b
 			display:none;
 		}
 
+		.fixed-arrow {
+			position: fixed;
+			top: 50%;
+			right: 10%;
+			z-index: 1;
+			transform:rotate(180deg);
+			 -o-transform:rotate(180deg);
+			 -moz-transform:rotate(180deg);
+			 -webkit-transform:rotate(180deg);
+		}
+
+		.fixed-arrow img {
+			width: 10%;
+		}
+
 
 /******** POP-UP MENU ********/	
 		
