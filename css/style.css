@@ -28,7 +28,7 @@ yellow: #eec12b
 		}
 
 		h1 {
-			font-size: 4rem;
+			font-size: 6rem;
 			color: #333333;
 			font-family: 'Raleway', sans-serif;
 			text-transform: uppercase;
@@ -172,7 +172,7 @@ yellow: #eec12b
 
 		.logo {
 			text-align: center;
-			margin-top: -50px;
+			margin: 100px auto;
 		}
 
 		.logo img {
@@ -340,6 +340,47 @@ yellow: #eec12b
 			font-size: 1.8rem;
 			color: #eec12b;
 		}
+
+		
+		.who-we-are {
+			position: relative;
+		}
+
+		.who-we-are h1 {
+			position: absolute;
+			top: 40%; 
+			left: 55%; 
+			width: 100%;
+			text-shadow: 2px 4px 3px rgba(0,0,0,0.3); 
+		}
+
+		.who-we-are .post {
+			width: 65%;
+		}
+
+		.who-we-are .post img {
+			width: 100%;
+		}
+
+		.what-we-do {
+			display: flex;
+		}
+
+		.elevator-1 {
+			width: 45%;
+			margin-right: 2rem;
+		}
+
+		.what-we-do .post {
+			width: 60%;
+		}
+
+		.wrapper.section {
+			margin: 0 auto;
+			margin: 5%;
+		}
+
+
 
 
 /******** ABOUT PAGE ********/	
