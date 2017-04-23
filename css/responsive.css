@@ -17,6 +17,25 @@ and (max-device-width : 1024px)  {
 		margin-top: 20%;
 	}
 
+	.logoHome {
+		padding-top: 10px;
+		padding-top: 30%;
+	}
+
+	.arrow-down {
+		margin-top: 0px;
+		margin-bottom: 50px;
+	}
+
+	.arrow-down a img {
+		margin-top: 25px;
+	}
+
+	#section-one {
+		padding-top: 200px;
+	}
+
+
 	.column-contact {
 		width: 50%;
 		margin: 0 auto;
@@ -31,7 +50,7 @@ and (max-device-width : 1024px)  {
 
 /******** MOBILE SIZE ********/
 
-@media all and (max-width: 480px) {
+@media (max-width: 480px) {
 
 	.logoIndex img{
 		margin-top: 40%;
@@ -39,8 +58,13 @@ and (max-device-width : 1024px)  {
 		max-width:200px;
 	}
 
+	.logo {
+		margin-top: 100px;
+		margin-bottom: 20px;
+	}
+
 	.logo img{
-		margin-top: 50px;
+		margin-top: 20px;
 		width:50%;
 		max-height:60px;
 	}
@@ -50,9 +74,14 @@ and (max-device-width : 1024px)  {
 		margin: 0 auto;
 	}
 
-	hr.vertical-rule {
+	/*hr.vertical-rule {
 		margin-left: -20px;
 		margin-top: -20px;
+	}*/
+
+	.arrow-down {
+		margin-top: 100px;
+		margin-bottom: 50px;
 	}
 
 	section{
@@ -72,6 +101,7 @@ and (max-device-width : 1024px)  {
 	.column .first-row {
 		margin-left: 0px;
 		padding-right: 0px;
+		width: 100%;
 	}
 
 	.money-shot {
@@ -110,6 +140,7 @@ and (max-device-width : 1024px)  {
 	}
 
 	footer img {
+		margin-right: 50px;
 		margin-bottom: 15px;
 	}
 
