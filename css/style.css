@@ -95,7 +95,6 @@ yellow: #eec12b
 
 /******** HEADER AND NAVIGATION ********/
 
-
 		header.index-header.clearfix {
 			background-image: url(../images/commercial/sab-miller-2.jpg);
 			width: 100%;
@@ -115,11 +114,17 @@ yellow: #eec12b
 			margin: 0 auto;
 		}
 
+		.arrow-down {
+			/*margin-top: 100px;*/
+			margin-bottom: 100px;
+		}
+
 		.arrow-down a img {
 			position: absolute;
-			top: 95%;
-			left: calc(50% - 30px);
+			top: 85vh;
+			left:calc(50% - 30px);
 			width: 60px;
+			margin-bottom: 50px;
 		}
 
 		.back-button {
@@ -173,10 +178,22 @@ yellow: #eec12b
 
 		.logo {
 			text-align: center;
-			margin: 100px auto;
+			margin-top: 20px;
+			margin-bottom: 70px;
 		}
 
 		.logo img {
+			width: 150px;
+			height: auto;
+		}
+
+		.logoHome {
+			text-align: center;
+			margin-top: 70px;
+			margin-bottom: 70px;
+		}
+
+		.logoHome img {
 			width: 150px;
 			height: auto;
 		}
@@ -315,6 +332,7 @@ yellow: #eec12b
 
 		.column {
 			margin: 0 auto;
+			z-index: -1;
 		}
 
 		.first-row {
