@@ -90,16 +90,14 @@
 
 	</header>
 
-<!-- ********* POSITION FIXED SCROLL UP ARROW *********-->	
 
-	<!-- <div class="wrapper">
-		<div class="fixed-arrow">
-			<nav>
-				<a href="#header"><img src="images/down-arrow.png" alt="scroll up arrow"></a>
-			</nav>
-		</div>
-	</div> -->	
+			<!-- ********* BLACK LOGO THAT FADES IN ON SCROLL *********-->	
 
+				<div class="scrolltop">    
+				    <!-- <div class="logoHome"> -->
+						<img src="images/logo.svg" alt="williams craig logo">
+	<!-- 				</div> -->
+				</div>
 
 
 <!-- ********* BEGINNING OF COPY *********-->
@@ -107,9 +105,12 @@
 	<section id="section-one">
 		<div class="wrapper">
 
-		<div class="logoHome">
+
+
+
+<!-- 		<div class="logoHome">
 			<img src="images/logo.svg" alt="williams craig logo">
-		</div>
+		</div> -->
 
 			<div class="column elevator-pitch">
 
@@ -294,6 +295,26 @@
 			    offset: 100    
 			   });   
 		});            
+		</script>
+
+
+<!-- ********* FIXED LOGO FADE IN ON SCROLL *********-->
+
+
+		<script>
+			$(window).scroll(function() {
+			  if ($(this).scrollTop()> 100) {
+			    $('.scrolltop').fadeIn();
+			   } else {
+			    $('.scrolltop').fadeOut();
+			   }
+			});
+
+			/// Scroll back to top
+			$("a[href='#top']").click(function() {
+			  $("html, body").animate({ scrollTop: 0 }, "slow");
+			  return false;
+			});
 		</script>
 
 

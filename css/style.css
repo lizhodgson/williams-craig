@@ -187,16 +187,6 @@ yellow: #eec12b
 			height: auto;
 		}
 
-		.logoHome {
-			text-align: center;
-			margin-top: 70px;
-			margin-bottom: 70px;
-		}
-
-		.logoHome img {
-			width: 150px;
-			height: auto;
-		}
 
 		a {
 			font-size: 1.6rem;
@@ -306,6 +296,37 @@ yellow: #eec12b
 /******** END MODAL POP-UP ********/
 
 
+/********* LOGO FADES IN ON SCROLL INDEX PAGE **********/
+
+		#scrolltop {
+			text-align: center;
+			left: 0;
+			top: 0;
+			width: 100%;
+			bottom: 50px;
+			height: 50px;
+			position: fixed;
+			padding-top: 20px;
+			height: 1000px;
+		}
+
+		.scrolltop {
+			display:none;
+			text-align: center;
+			z-index:9999;
+		}
+
+		.logoHome {
+			text-align: center;
+		}
+
+		.scrolltop img {
+			width: 150px;
+			height: auto;
+			position: fixed;
+		}
+
+
 /******** IMAGES ********/
 
 		.post img {
@@ -316,6 +337,11 @@ yellow: #eec12b
 
 		.logoIndex img{
 			width: 500px;
+		}
+
+
+		#section-one {
+			margin-top: 300px;
 		}
 
 		section {
