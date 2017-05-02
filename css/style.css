@@ -27,6 +27,7 @@ yellow: #eec12b
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
+			padding: 2% 5%;
 		}
 
 		ul.index-nav {
@@ -160,10 +161,6 @@ yellow: #eec12b
 			text-align: center;
 		}
 
-		.menu {
-			display: flex;
-			padding: 5%;
-		}
 
 		.logo {
 			text-align: center;
