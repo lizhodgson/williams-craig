@@ -39,47 +39,28 @@ Take out 'where we are'
 Projects page grid should be wider -->
 
 
-<!-- ********* HEADER *********-->
 
-<header id="header">
+<!-- ********* NAV MENU *********-->	
 
-	<ul class="cb-slideshow">
-            <li><span>Image 01</span></li>
-            <li><span>Image 02</span></li>
-            <li><span>Image 03</span></li>
-            <li><span>Image 04</span></li>
-            <li><span>Image 05</span></li>
-            <li><span>Image 06</span></li>
-      </ul>
-
-
-	<!-- ********* MENU MODAL POPUP *********-->				
-
-		<div class="index-hero">
-
-			<div class="menu">
-				<a href="#get-in-touch" class="menu-white"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
-				<a href="https://www.instagram.com/williamscraigdesign/" class="menu-white"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-			</div>
-
-	<!-- ********* LARGE WHITE LOGO RESIZING *********-->
-			
-			<div class="logoIndex">
+		<div class="wrapper flex-parent">
 			<div class="post">
-				<img src="images/logoWhite.svg" alt="williams craig logo">
+				<p class="company-name">williamscraig design</p>
 			</div>
-			</div>
-				
-			<div class="post">
-				<h1 class="company-name">williamscraig design</h1>
-			</div> <!-- INDEX HERO -->
+			<ul class="index-nav">
+				<li>
+					<a href="#get-in-touch"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/williamscraigdesign/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+				</li>
+			</ul>
+		</div>	<!-- NAV MENU -->		
 
 
-		<div class="arrow-down">
-			<nav><a href="#section-one"><img src="images/down-arrow.png" alt="scroll down arrow"></a></nav>
-		</div>
+<!-- ********* MODAL POP-UP MENU *********-->							
 
 		<div class="modal" id="get-in-touch">
+
 			<div class="modal-container">
 			
 				<div class="pop-top">
@@ -99,37 +80,32 @@ Projects page grid should be wider -->
 				</div> 
 
 			</div> 
+
 		</div>
 
+<!-- ********* FULL PAGE SLIDER AND BIG WHITE LOGO AND ABOUT/PROJECTS LINKS *********-->
 
-	</header>
+	<div class="index-slider">
 
-
-	<div class="back-to-top">
-		<nav>
-			<a href="#header"><img src="images/down-arrow.png" alt="scroll up arrow"></a>
-			<p>top</p>
-		</nav>
-	</div>
-
-	<footer>
-
-			<div class="columnFooter">
-				<img src="images/logo.svg" alt="williams craig logo">
+		<div class="logoIndex">
+			<div class="post">
+				<img src="images/logoWhite.svg" alt="williams craig logo">
 			</div>
+		</div>
 
-			<div class="columnFooter">
-				<p>Tel: 416.516.2177<br>Email:info@williamscraigdesign.com</p>
-			</div>
+		<div class="hero-buttons">
+			<!-- insert two buttons here for 'about' and 'projects' -->
+		</div>
 
-			<div class="columnFooter">
-				<p>38 Ossington Avenue<br>Toronto, ON M6J 2Y7</p>
-			</div>
-
-	</footer>
-
-	<div class="yellow-block"></div>
-
+		<ul class="cb-slideshow">
+			<li><span>Image 01</span></li>
+			<li><span>Image 02</span></li>
+			<li><span>Image 03</span></li>
+			<li><span>Image 04</span></li>
+			<li><span>Image 05</span></li>
+			<li><span>Image 06</span></li>
+		</ul>
+	</div>	
 
 
 
@@ -137,23 +113,9 @@ Projects page grid should be wider -->
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="js/plugins/masonry/masonry.pkgd.min.js"></script>
-		<script src="js/plugins/smoothScroll/jquery.smooth-scroll.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/plugins/modernizr.custom.86080.js"></script>
 
-		<script>
-			$(function(){
-				console.log('Im ready');
-
-				// add smooth scroll to down and up arrow buttons
-
-				$('nav a').smoothScroll({
-					offset: 70,
-					speed: 1000
-				});
-
-			}); 
-		</script>
 
 <!-- ********* FLICKITY ***********-->
 
@@ -188,24 +150,7 @@ Projects page grid should be wider -->
 		</script>
 
 
-<!-- ********* FIXED LOGO FADE IN ON SCROLL *********-->
 
-
-		<script>
-			$(window).scroll(function() {
-			  if ($(this).scrollTop()> 100) {
-			    $('.scrolltop').fadeIn();
-			   } else {
-			    $('.scrolltop').fadeOut();
-			   }
-			});
-
-			/// Scroll back to top
-			$("a[href='#top']").click(function() {
-			  $("html, body").animate({ scrollTop: 0 }, "slow");
-			  return false;
-			});
-		</script>
 
 
 <!-- <script src="js/plugins/skrollr.min.js"></script>
