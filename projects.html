@@ -257,6 +257,14 @@
   </div>
 </div>
 
+
+<div class="back-to-top">
+  <nav>
+    <a href="#header"><img src="images/down-arrow.png" alt="scroll up arrow"></a>
+    <p>top</p>
+  </nav>
+</div>
+
 <!-- <footer>
     <div class="columnFooter">
       <img src="images/logo.svg" alt="williams craig logo">
@@ -274,6 +282,24 @@
 <div class="yellow-block"></div>
 
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="../js/plugins/smoothScroll/jquery.smooth-scroll.js"></script>
+<script src="../js/main.js"></script>
+
+<script>
+  $(function(){
+    console.log('Im ready');
+
+    // add smooth scroll to down and up arrow buttons
+
+    $('nav a').smoothScroll({
+      offset: 70,
+      speed: 1000
+    });
+
+  }); 
+</script>
 
 <!-- ISOTOPE isotope.pkgd.min.js -->
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
