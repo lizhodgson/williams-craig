@@ -26,13 +26,15 @@
 <body>
 
 <!-- 
-Add back in js smooth scroll
-Projects page - make categories drop-down menu
 Change spot color
 Change bg colour pop-up menu
 remove footer
+Change ID for smooth scroll on all project pages
+replace tabs with periods in document
+Projects page - make categories drop-down menu
+
 Projects page grid should be wider
-replace tabs with periods in document -->
+ -->
 
 
 
@@ -110,8 +112,20 @@ replace tabs with periods in document -->
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="js/plugins/masonry/masonry.pkgd.min.js"></script>
+		<script src="js/plugins/smoothScroll/jquery.smooth-scroll.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/plugins/modernizr.custom.86080.js"></script>
+
+		<script>
+			$(function(){
+				console.log('Im ready');
+				// add smooth scroll to down and up arrow buttons
+				$('nav a').smoothScroll({
+					offset: 70,
+					speed: 1000
+				});
+			}); 
+		</script>
 
 
 <!-- ********* FLICKITY ***********-->
