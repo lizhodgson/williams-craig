@@ -28,6 +28,7 @@ yellow: #eec12b
 			align-items: center;
 			justify-content: space-between;
 			padding: 2% 5%;
+			margin-bottom: 20px;
 		}
 
 		ul.index-nav {
