@@ -94,7 +94,7 @@ yellow: #eec12b
 		hr.vertical-rule {
 
 			border: 0;
-    		border-top: 2px solid #eec12b;
+    		border-top: 2px solid #778899;
 
 			width:15%;
 			margin: 20% 40%;
@@ -134,7 +134,7 @@ yellow: #eec12b
 		.back-button a p {
 			font-size: 2rem;
 			font-weight: 500;
-			color: grey;
+			color: lightslategrey;
 		}
 
 		.back-to-top nav a img {
@@ -151,7 +151,7 @@ yellow: #eec12b
 		}
 
 		nav p {
-			color: #eec12b;
+			color: lightslategrey;
 			text-align: center;
 			margin: 0;
 			text-transform: uppercase;
@@ -210,7 +210,7 @@ yellow: #eec12b
 
 		.modal-container {
 			position: fixed;
-			background-color: #eec12b;
+			background-color: lightslategrey;
 			height: 100%;
 			width: 100%;
 			padding: 5%;
@@ -402,7 +402,7 @@ yellow: #eec12b
 		.arrow-up p {
 			text-transform: uppercase;
 			font-size: 1.8rem;
-			color: #eec12b;
+			color: lightslategrey;
 		}
 
 
@@ -440,13 +440,13 @@ yellow: #eec12b
 		}
 
 		.form input:hover {
-			border-bottom:1px solid #eec12b;
+			border-bottom:1px solid lightslategrey;
 		}
 
 		.form input:focus {
 			border: none;
 			outline: none;
-			border-bottom:1px solid #eec12b;
+			border-bottom:1px solid lightslategrey;
 		}
 
 		textarea {
@@ -462,7 +462,7 @@ yellow: #eec12b
 		textarea:focus {
 			border: none;
 			outline: none;
-			border:1px solid #eec12b;
+			border:1px solid lightslategrey;
 		}
 
 		input.submit-button {
@@ -480,13 +480,13 @@ yellow: #eec12b
 		}
 
 		input.submit-button:hover {	
-			border:1px solid #eec12b;
+			border:1px solid lightslategrey;
 			color: #D6B343;
 		}
 
 		input.submit-button:focus {	
-			border:1px solid #eec12b;
-			color: #eec12b;
+			border:1px solid lightslategrey;
+			color: lightslategrey;
 		}
 
 
@@ -500,7 +500,7 @@ yellow: #eec12b
 		hr.vertical-rule-projects {
 
 			border: 0;
-			border-top: 2px solid #eec12b;
+			border-top: 2px solid #778899;
 
 			width:15%;
 			margin: 20% 43%;
@@ -553,8 +553,8 @@ yellow: #eec12b
 		}
 
 		.yellow-block {
-			background-color:#eec12b;
-			margin-top: -20px;
+			background-color:black;
+			margin-top: 40px;
 			padding: 10px;
 		}		
 
