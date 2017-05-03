@@ -134,11 +134,12 @@ yellow: #eec12b
 		.back-button a p {
 			font-size: 2rem;
 			font-weight: 500;
-			color: lightslategrey;
+			color: lightslategre;
 		}
 
 		.back-to-top nav a img {
 			width: 5%;
+			margin-bottom: 20px;
 			-webkit-transform:rotate(180deg);
 			-moz-transform: rotate(180deg);
 			-ms-transform: rotate(180deg);
@@ -151,7 +152,8 @@ yellow: #eec12b
 		}
 
 		nav p {
-			color: lightslategrey;
+			color: black;
+			font-size: 2.5rem;
 			text-align: center;
 			margin: 0;
 			text-transform: uppercase;
@@ -210,7 +212,7 @@ yellow: #eec12b
 
 		.modal-container {
 			position: fixed;
-			background-color: lightslategrey;
+			background-color: azure;
 			height: 100%;
 			width: 100%;
 			padding: 5%;
@@ -268,7 +270,7 @@ yellow: #eec12b
 
 		ul.pop-up-menu li a {
 			font-family: 'Raleway', sans-serif;
-			color: white;
+			color: black;
 			text-decoration: none;
 			text-transform: uppercase;
 			letter-spacing: .5rem;
