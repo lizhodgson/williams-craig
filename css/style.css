@@ -579,7 +579,19 @@ yellow: #eec12b
 			background-color:black;
 			margin-top: 40px;
 			padding: 10px;
-		}		
+		}
+
+		.yellow-block-index {
+			background-color:black;
+			position: absolute;
+  			right: 0;
+  			bottom: 0;
+  			left: 0;
+			margin-top: 40px;
+			padding: 10px;
+		}
+
+
 
 
 /******** VIEWPORT ANIMATION ********/
