@@ -6,9 +6,9 @@ ul {
 
 .cb-slideshow li span { 
     width: 100%;
-    height: 90vh;
+    height: 85vh;
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 0px;
     color: transparent;
     background-size: cover;
@@ -163,6 +163,7 @@ and (max-device-width : 1024px)  {
 
     .cb-slideshow li span {
         height: 90vh;
+        top: 10%;
     }
 }
 
