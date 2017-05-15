@@ -306,11 +306,11 @@ yellow: #eec12b
 
 		.logoIndex {
 			text-align: center;
-			margin-top: 10%; /*temporary until I figure out flexy stuff*/
+			margin-top: 5%; /*temporary until I figure out flexy stuff*/
 		}
 
 		.logoIndex img{
-			width: 600px;
+			width: 500px;
 		}
 
 		.arrow-down a img {
@@ -601,7 +601,33 @@ yellow: #eec12b
 		}
 		.visible{
 		    opacity:1;
-		}		 
+		}	
+
+/******** TABLET HOME BUTTONS ********/
+
+@media only screen 
+	and (min-device-width : 768px) 
+	and (max-device-width : 1024px)  {
+
+	.hero-links {
+		margin-top: 10%;
+	}
+
+	.hero-links a {
+		padding: 28px 46px;
+		margin: 10px;
+		font-size: 2rem;
+		border-radius: 8px;
+		letter-spacing: 2px;
+	}
+}	 
+
+@media (max-width: 480px) {
+
+	p.company-name {
+		margin-top: 15%;
+		font-size: 1.5rem;
+	}
 
 
 
