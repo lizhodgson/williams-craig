@@ -10,7 +10,13 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 yellow: #eec12b
 
 
+
 /******** TYPOGRAPHY ********/
+
+	html {
+	    position: relative;
+	    min-height: 100%;
+	}
 
 		body {
 			background-color: white;
@@ -577,8 +583,11 @@ yellow: #eec12b
 
 		.yellow-block {
 			background-color:black;
+			width: 100vw;
 			margin-top: 40px;
 			padding: 10px;
+			position: absolute;
+			bottom: 0;
 		}
 
 		.yellow-block-index {
@@ -634,6 +643,14 @@ yellow: #eec12b
 		margin-top: 15%;
 		font-size: 1.5rem;
 	}
+
+	#map {
+			margin-top: 50px;
+	        height:420px;
+	        width: 100%;
+      }
+
+   }
 
 
 
