@@ -48,12 +48,14 @@ and (max-device-width : 1024px)  {
       }
 }
 
+
 /******** MOBILE SIZE ********/
 
 @media (max-width: 480px) {
 
 	.logoIndex img{
 		margin-top: 40%;
+		margin-bottom: 40px;
 		width:50%;
 		max-width:200px;
 	}
