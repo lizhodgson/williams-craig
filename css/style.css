@@ -620,6 +620,12 @@ yellow: #eec12b
 		border-radius: 8px;
 		letter-spacing: 2px;
 	}
+
+	#map {
+			margin-top: 50px;
+	        height:420px;
+	        width: 300px;
+      }
 }	 
 
 @media (max-width: 480px) {
