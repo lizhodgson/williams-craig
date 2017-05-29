@@ -65,7 +65,7 @@
    <div id="content" class="main">
     <div class="container-gallery">
     
-          <nav class="menuSort">
+          <nav id="menuSort">
               <ul class="clearfix">
                   <li>
                       <a href="#">Project Categories <span class="arrow">&#9660;</span></a>
@@ -82,9 +82,6 @@
                   </li>
               </ul>
           </nav>
-
-
- 
 
 <!-- ********* SORTING BUTTONS *********--> 
 <!-- 
@@ -342,3 +339,30 @@
   });
 });
 </script>
+
+
+<!-- ********* SORTING MENU ON TOUCH SCREENS *********-->
+
+<script type="text/javascript">
+  function is_touch_device() {
+  return !!('ontouchstart' in window);
+  }
+
+
+$(document).ready(function() {
+/* If mobile browser, prevent click on parent nav item from redirecting to URL */
+if(is_touch_device()) {
+/* Option 1: Use this to modify the href on the <a> to # */
+$('#menutry > li > a').attr('href' ,'#');      
+/* OR Option 2: Use this to keep the href on the <a> intact but prevent the default action */
+$('#menutry > li > a').click(function(event) {
+event.preventDefault();
+});
+}
+});
+
+</script>
+
+
+
+ 
