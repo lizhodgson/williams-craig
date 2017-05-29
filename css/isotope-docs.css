@@ -1,29 +1,29 @@
 
 /******** DROP DOWN MENU ********/ 
  
-.menuSort {
+#menuSort {
     width:1200px;
     margin-left: -35px;
 }
  
-.menuSort li {
+#menuSort li {
     list-style:none;
     font-family:'Lato', sans-serif;
 }
  
-.menuSort a {
+#menuSort a {
     transition:all linear 0.15s;
     color:black;
     text-decoration:none;
 }
   
-.menuSort .arrow {
+#menuSort .arrow {
     font-size:11px;
     line-height:0%;
 }
  
 /*----- Top Level -----*/
-.menuSort > ul > li {
+#menuSort > ul > li {
     float:left;
     display:inline-block;
     position:relative;
@@ -31,7 +31,7 @@
 }
  
 /*----- Bottom Level -----*/
-.menuSort li:hover .sub-menuSort {
+#menuSort li:hover .sub-menuSort {
     z-index:1;
     opacity:1;
 }
