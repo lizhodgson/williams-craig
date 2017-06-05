@@ -310,6 +310,12 @@ yellow: #eec12b
 			padding: 0;
 		}
 
+		ul.landing-nav {
+			display: flex;
+			margin: 0;
+			padding: 0;
+		} /*for landing page only*/
+
 		ul.index-nav li {
 			list-style-type: none;
 		}
@@ -318,10 +324,11 @@ yellow: #eec12b
 			margin-left: 20px;
 		}
 
-		.logoIndex {
-			text-align: center;
-			margin-top: 5%; /*temporary until I figure out flexy stuff*/
-		}
+		ul.landing-nav li a {
+			margin-left: 20px;
+			color: white;
+		} /*for different color links on landing page*/
+
 
 		.arrow-down a img {
 			position: absolute;
@@ -331,32 +338,34 @@ yellow: #eec12b
 			margin-bottom: 50px;
 		} /*this will change to wayfinding buttons on splash page*/
 
-		.index-slider {
-			text-align: center;
+		.hero-content {
+			position: relative;
+			display: flex;
+			height: 100vh;
+			flex-direction: column;
+			align-items: center;
+			/*justify-content: bottom;*/
 		}
 
 
 		.hero-links {
-			margin-top: 5%;
+			display: flex;
 		}
 
 		.hero-links a {
 			color: white;
-			background-color:rgba(0, 0, 0, 0.5);
 			padding: 18px 36px;
 			margin: 10px;
-			font-size: 1rem;
+			font-size: 2rem;
 			border-radius: 8px;
 			font-family: 'Raleway';
-			font-weight: 600;
+			font-weight: 400;
 			letter-spacing: 2px;
 			text-transform: uppercase;
 			text-decoration: none;
 		}
 
 		.hero-links a:hover{
-			color: black;
-			background-color: white;
 			font-weight: 600;
 		}
 
@@ -364,15 +373,24 @@ yellow: #eec12b
 			outline:0;
 		}
 
-		a.link-left {
-			background-color: rgba(255,255,255, 0.9);
-			color: black;
+		hr.hero-divider {
+
+			border: 0;
+			border-top: 1px solid white;
+
+			width:5%;
+			margin: 0 43%;
+
+			transform:rotate(90deg);
+			 -o-transform:rotate(90deg);
+			 -moz-transform:rotate(90deg);
+			 -webkit-transform:rotate(90deg);
 		}
 
-		a.link-left:hover {
-			color: white;
-			background-color: black;
+		.link-left i, .link-right i {
+			margin-left: 5%;
 		}
+
 
 
 /******** ABOUT PAGE ********/	
