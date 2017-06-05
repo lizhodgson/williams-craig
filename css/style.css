@@ -13,10 +13,13 @@ yellow: #eec12b
 
 /******** TYPOGRAPHY ********/
 
+
 	html {
 	    position: relative;
 	    min-height: 100%;
 	}
+
+
 
 		body {
 			background-color: white;
