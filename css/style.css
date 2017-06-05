@@ -56,6 +56,11 @@ yellow: #eec12b
 			text-transform: uppercase;
 		}
 
+		h1.white {
+			color: white;
+			font-weight: 400;
+		}
+
 		p.company-name {
 			font-size: 2rem;
 			font-family: 'Raleway', sans-serif;
@@ -316,10 +321,6 @@ yellow: #eec12b
 		.logoIndex {
 			text-align: center;
 			margin-top: 5%; /*temporary until I figure out flexy stuff*/
-		}
-
-		.logoIndex img{
-			width: 500px;
 		}
 
 		.arrow-down a img {
