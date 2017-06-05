@@ -19,11 +19,17 @@ yellow: #eec12b
 	    min-height: 100%;
 	}
 
-
+	@font-face {
+	    font-family: "Neutraface Text";
+	    src: url("NeutrafaceTextBook.woff2") format("woff2"), url("NeutrafaceTextBook.woff") format("woff");
+	    font-style: normal;
+	    font-weight: 400;
+	    font-stretch: normal;
+	}
 
 		body {
 			background-color: white;
-			font-family: 'Rubik', sans-serif;
+			font-family: 'Neutraface Text', sans-serif;
 		}
 
 		.wrapper {
@@ -52,12 +58,13 @@ yellow: #eec12b
 		h1 {
 			font-size: 6rem;
 			color: #333333;
-			font-family: 'Raleway', sans-serif;
+			font-family: 'Neutraface Text', sans-serif;
 			text-transform: uppercase;
 		}
 
 		h1.white {
 			color: white;
+			font-family: 'Neutraface Text', sans-serif;
 			font-weight: 400;
 		}
 
