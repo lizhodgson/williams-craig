@@ -21,12 +21,19 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 		font-stretch: normal;
 	}
 
-* {
-	font-family: 'Neutra', sans-serif;
-}
+@font-face { 
+		font-family:Neutra-Bold;
+		src: url('../fonts/NeutrafaceText-Bold.woff');
+		src: url('../fonts/NeutrafaceText-Bold.woff2') format('embedded-opentype'),
+		url('../fonts/NeutrafaceText-Book.woff') format('woff');
+		font-style: normal;
+		font-weight: 400;
+		font-stretch: normal;
+	}	
 
 
 html {
+	font-family: 'Neutra', sans-serif;
     position: relative;
     font-size: 10px;
     min-height: 100%;
@@ -60,8 +67,9 @@ html {
 
 		h1.white {
 			color: white;
+			font-size: 8rem;
 			font-family: 'Neutra', sans-serif;
-			font-weight: 400;
+			font-weight: 600;
 		}
 
 		p.company-name {
@@ -100,10 +108,6 @@ html {
 			font-size: 1.4rem;
 			line-height: 2.5rem;
 			font-weight: 600;
-		}
-
-		.williamscraig {
-			text-transform: uppercase;
 		}
 
 		hr.vertical-rule {
@@ -194,7 +198,7 @@ html {
 
 		p.menu {
 			text-transform: uppercase;
-			font-weight: bolder;
+			font-family: 'Neutra-Bold';
 			margin: 0;
 			margin-top: 10px;
 			padding: 0;
@@ -336,7 +340,7 @@ html {
 		.hero-content {
 			position: absolute;
 			top: 30vh;
-			left:calc(35% - 30px);
+			left:calc(30% - 30px);
 			display: flex;
 			height: 100vh;
 			flex-direction: column;
