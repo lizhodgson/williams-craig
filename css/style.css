@@ -339,28 +339,34 @@ html {
 	
 		.hero-content {
 			position: absolute;
+			width: 80%;
 			top: 30vh;
-			left:calc(30% - 30px);
+			left:calc(18% - 30px);
 			display: flex;
-			height: 100vh;
 			flex-direction: column;
 			align-items: center;
 		}
 
+		.hero-content i {
+			margin-left: 5%;
+			padding: 2% 3%;
+			border: 1px solid white;
+			border-radius: 50%;
+		}
+
 		.hero-links {
 			display: flex;
+			width: 100%;
+			text-align: center;
 		}
 
 		.hero-links a {
 			color: white;
-			padding: 18px 36px;
-			margin: 10px;
 			font-size: 2rem;
-			border-radius: 8px;
-			font-weight: 400;
 			letter-spacing: 2px;
 			text-transform: uppercase;
 			text-decoration: none;
+			width: 50%;
 		}
 
 		.hero-links a:hover{
@@ -374,19 +380,15 @@ html {
 		hr.hero-divider {
 
 			border: 0;
-			border-top: 1px solid white;
+			border-top: 2px solid white;
 
 			width:5%;
-			margin: 0 43%;
+			margin: 0;
 
 			transform:rotate(90deg);
 			 -o-transform:rotate(90deg);
 			 -moz-transform:rotate(90deg);
 			 -webkit-transform:rotate(90deg);
-		}
-
-		.link-left i, .link-right i {
-			margin-left: 5%;
 		}
 
 
