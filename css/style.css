@@ -1,3 +1,4 @@
+
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;} abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
 input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
 
@@ -10,23 +11,32 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 /******** TYPOGRAPHY ********/
 
+@font-face {
+    font-family: 'Neutra';
+    src: url("NeutrafaceText-Book.woff2") format("woff2"),
+    url("NeutrafaceText-Book.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+}
+
+
+@font-face{ font-family:Neutra;
+	src: url('../fonts/NeutrafaceText-Book.woff');
+	src: url('../fonts/NeutrafaceText-Book.woff2') format('embedded-opentype'),
+	url('../fonts/NeutrafaceText-Book.woff') format('woff'); }
+
+* {font-family: 'Neutra', sans-serif;}
+
 
 	html {
 	    position: relative;
 	    min-height: 100%;
 	}
 
-	@font-face {
-	    font-family: "Neutraface Text";
-	    src: url("NeutrafaceTextBook.woff2") format("woff2"), url("NeutrafaceTextBook.woff") format("woff");
-	    font-style: normal;
-	    font-weight: 400;
-	    font-stretch: normal;
-	}
 
 		body {
 			background-color: white;
-			font-family: 'Neutraface Text', sans-serif;
 		}
 
 		.wrapper {
@@ -46,18 +56,19 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 		html {
     		font-size: 10px;
+    		font-family: "Neutraface Text";
 		}
 
 		h1 {
 			font-size: 6rem;
 			color: #333333;
-			font-family: 'Neutraface Text', sans-serif;
+			font-family: 'Neutra', sans-serif;
 			text-transform: uppercase;
 		}
 
 		h1.white {
 			color: white;
-			font-family: 'Neutraface Text', sans-serif;
+			font-family: 'Neutra', sans-serif;
 			font-weight: 400;
 		}
 
@@ -325,7 +336,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 			/*justify-content: bottom;*/
 		}
 
-
 		.hero-links {
 			display: flex;
 		}
@@ -336,7 +346,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 			margin: 10px;
 			font-size: 2rem;
 			border-radius: 8px;
-			font-family: 'Raleway';
 			font-weight: 400;
 			letter-spacing: 2px;
 			text-transform: uppercase;
@@ -498,7 +507,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 			margin-top: 10px;
 			border-radius: 2px;
 			padding:10px;
-			font-family: 'Proza Libre', sans-serif;
 			font-size:1.2rem;
 			color: grey;
 			border:1px solid grey;
@@ -590,15 +598,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 			bottom: 0;
 		}
 
-		.yellow-block-index {
-			background-color:black;
-			position: absolute;
-  			right: 0;
-  			bottom: 0;
-  			left: 0;
-			margin-top: 40px;
-			padding: 10px;
-		}
 
 
 
