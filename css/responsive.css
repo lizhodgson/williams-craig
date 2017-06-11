@@ -48,6 +48,18 @@ and (max-device-width : 1024px)  {
 
 @media (max-width: 480px) {
 
+	.hero-divider {
+		display: none;
+	}
+
+	.hero-content i {
+			margin-left: 5%;
+			padding: 2% 3%;
+			border: none
+			border-radius: 50%;
+		}
+
+
 	.logoIndex img{
 		margin-top: 40%;
 		margin-bottom: 40px;
