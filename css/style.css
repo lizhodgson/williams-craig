@@ -622,6 +622,9 @@ html {
 		    opacity:1;
 		}	
 
+
+
+
 /******** TABLET HOME BUTTONS ********/
 
 @media only screen 
@@ -648,6 +651,18 @@ html {
 }	 
 
 @media (max-width: 480px) {
+
+	h1.white {
+		font-size: 3rem;
+	}
+
+	.hero-content i {
+			margin-left: 5%;
+			margin-top: 10px;
+			padding: 1% 5%;
+			border: 1px solid white;
+			border-radius: 50%;
+		}
 
 	p.company-name {
 		margin-top: 15%;
