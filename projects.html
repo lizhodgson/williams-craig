@@ -62,29 +62,23 @@
 
 		<div id="content" class="main">
 			<div class="container-gallery">
-    
-				<nav id="menuSort">
-					<ul class="clearfix">
-						<li>
-							<a href="#">Project Categories <span class="arrow">&#9660;</span></a>
-								<ul class="sub-menuSort">
-									<div class="filter-button-group button-group js-radio-button-group">
-										<li><button class="button is-checked" data-filter="*">All</button></li>
-										<li><button class="button" data-filter=".commercial">Commercial</button></li>
-										<li><button class="button" data-filter=".residential">Residential</button></li>
-										<li><button class="button" data-filter=".hospitality">Hospitality</button></li>
-										<li><button class="button" data-filter=".retail">Retail</button></li>
-										<li> <button class="button" data-filter=".cultural">Cultural</button></li>
-									</div>
-								</ul>
-						</li>
-					</ul>
-				</nav>
-
+				<div class="dropdown">
+  					<button onclick="myFunction()" class="dropbtn">PROJECT CATEGORIES</button>
+  						<div id="myDropdown" class="dropdown-content">
+						    <div class="filter-button-group button-group js-radio-button-group">
+								<li><button class="button is-checked" data-filter="*">All</button></li>
+								<li><button class="button" data-filter=".commercial">Commercial</button></li>
+								<li><button class="button" data-filter=".residential">Residential</button></li>
+								<li><button class="button" data-filter=".hospitality">Hospitality</button></li>
+								<li><button class="button" data-filter=".retail">Retail</button></li>
+								<li> <button class="button" data-filter=".cultural">Cultural</button></li>
+							</div>
+  						</div>
+				</div>
 
 <!-- ********* GALLERY *********--> 
 
-		<div class="grid" data-isotope="{ &quot;masonry&quot;: { &quot;columnWidth&quot;: 135 } }">
+		<div class="grid" data-isotope="{ &quot;masonry&quot;: { &quot;columnWidth&quot;: 137 } }">
 
 		<!-- ********* 4 KING *********-->
 			<div class="gallery-item vert commercial " data-category="commercial">
@@ -332,6 +326,31 @@ event.preventDefault();
 
 </script>
 
+
+<!-- ********* DROP DOWN CLICK SORTING MENU *********-->
+
+<script type="text/javascript">
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 
 
  
