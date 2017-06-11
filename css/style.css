@@ -669,6 +669,20 @@ html {
 		font-size: 1.5rem;
 	}
 
+
+	.side-by-side img {
+			width: 100%;
+		}
+
+	.image-right {
+			margin-left: 0px;
+		}
+
+		.image-left {
+			margin-right: 0px;
+		}
+
+
 	#map {
 			margin-top: 50px;
 	        height:420px;
