@@ -1,7 +1,7 @@
 
-/******** DROP DOWN MENU ********/ 
+/******** HOVER DROP DOWN MENU ********/ 
  
-#menuSort {
+/*#menuSort {
     width:1200px;
     margin-left: -35px;
 }
@@ -20,23 +20,23 @@
 #menuSort .arrow {
     font-size:11px;
     line-height:0%;
-}
+}*/
  
 /*----- Top Level -----*/
-#menuSort > ul > li {
+/*#menuSort > ul > li {
     float:left;
     display:inline-block;
     position:relative;
     font-size:19px;
-}
+}*/
  
 /*----- Bottom Level -----*/
-#menuSort li:hover .sub-menuSort {
+/*#menuSort li:hover .sub-menuSort {
     z-index:1;
     opacity:1;
-}
+}*/
  
-.sub-menuSort {
+/*.sub-menuSort {
     width: 800px;
     padding:0px 0px;
     position:absolute;
@@ -57,8 +57,54 @@
     padding-top: 30px;
     padding-bottom: 30px;
     display:block;
+}*/
+
+
+/******** CLICK DROP DOWN MENU ********/ 
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: black;
+    font-family: 'Neutra-Bold' , sans-serif;
+    padding-bottom: 20px;
+    font-size: 20px; 
+    border: none;
+    cursor: pointer;
 }
 
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    color: #eec12b;
+    outline:0;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 250px;
+    z-index: 1;
+}
+
+.dropdown-content li {
+  list-style: none;
+  font-size: 20px;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: white}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
 
  
 
@@ -68,12 +114,12 @@
     background-color: white;
     border: none;
     color: black;
-    /*padding: 15px 32px;*/
+    padding-bottom: 20px;
     text-align: left;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin-right: 30px;
+    font-size: 20px;
+    margin-right: 80px;
     cursor: pointer;
 }
 
@@ -105,7 +151,7 @@
   /*margin-bottom: 20px;*/
   /*padding-left: 5px;*/
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .button-group .button:hover {
@@ -195,7 +241,7 @@
   position: relative;
   margin: 0 auto;
   max-width: 1200px;
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 /* clearfix */
