@@ -74,7 +74,7 @@
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-    color: #eec12b;
+    color: lightslategrey;
     outline:0;
 }
 
