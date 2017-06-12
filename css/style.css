@@ -53,7 +53,7 @@ html {
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
-			padding: 2% 5%;
+			padding: 2% 2.5%;
 			margin-bottom: 20px;
 		}
 
@@ -393,6 +393,10 @@ html {
 
 /******** ABOUT PAGE ********/	
 
+
+		ul.index-nav li a img {
+			width: 18%;
+		}
 
 		ul li a img {
 			width: 10%;
