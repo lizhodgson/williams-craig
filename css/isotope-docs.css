@@ -183,10 +183,10 @@
 
 .gallery-item {
   float: left;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   /*margin-right: 10px;*/
   /*width: calc(25% - 8%);*/
-  width: 20%;
+  width: 22%;
   }
 
 /*.vert{
